@@ -1,0 +1,29 @@
+<customlist scriptid="customlist_pe_feature_groups">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Feature Groups</name>
+  <customvalues>
+    <customvalue scriptid="val_19814_7460686_199">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Entity</value>
+    </customvalue>
+    <customvalue scriptid="val_19815_7460686_970">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Transaction</value>
+    </customvalue>
+    <customvalue scriptid="val_19816_7460686_594">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Item</value>
+    </customvalue>
+    <customvalue scriptid="val_19817_7460686_809">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Report</value>
+    </customvalue>
+  </customvalues>
+</customlist>

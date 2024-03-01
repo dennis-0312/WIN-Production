@@ -1,0 +1,13 @@
+<pluginimplementation scriptid="customscript_shipping_method_edoc">
+  <customplugintype>[scriptid=customscript_ei_pl_sending_plugin]</customplugintype>
+  <description>Registro para implementación de plugin para método de envío de documentos electrónicos.</description>
+  <isinactive>F</isinactive>
+  <loglevel>DEBUG</loglevel>
+  <name>E-Document Shipping Method</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>T</notifyuser>
+  <scriptfile>[/SuiteScripts/TS NET Scripts/core/plugin/TS_PL_Sending_Method.js]</scriptfile>
+  <status>RELEASED</status>
+</pluginimplementation>

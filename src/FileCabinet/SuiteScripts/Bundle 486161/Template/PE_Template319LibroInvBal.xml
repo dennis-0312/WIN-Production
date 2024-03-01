@@ -1,0 +1,76 @@
+<#assign company = input.company >
+<#assign totals = input.totals >
+<#assign movements = input.movements >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+   <head>
+      <meta name="title" value="Formato 3.17" />
+      <macrolist>
+         <macro id = "cabecera">
+            <table width="100%">
+               <tr>
+                  <td colspan="4" width="100%" align="center"><b>${company.firtsTitle}</b></td>
+               </tr>
+                <tr>
+                    <td width="50%" align="left"><b>EJERCICIO</b></td>
+                    <td width="5%" align="right"><b>:</b></td>
+                    <td width="30%" align="left">${company.secondTitle}</td>
+                    <td width="15%" align="left"></td>
+               </tr>
+                <tr>
+                    <td width="50%" align="left"><b>RUC</b></td>
+                    <td width="5%" align="right"><b>:</b></td>
+                    <td width="30%" align="left">${company.thirdTitle}</td>
+                    <td width="15%" align="left"></td>
+               </tr>
+                <tr>
+                    <td width="50%" align="left"><b>DENOMINACION O RAZON SOCIAL</b></td>
+                    <td width="5%" align="right"><b>:</b></td>
+                    <td width="30%" align="left">${company.fourthTitle}</td>
+                    <td width="15%" align="left"></td>
+               </tr>
+            </table>
+         </macro>
+      </macrolist>
+   </head>
+    <body background-color="white" font-size="8" size="A4-landscape" header = "cabecera" header-height="25mm" footer-height="10mm">
+       <table style="font-family: Verdana, Arial, Helvetica, sans-serif; width:100%" >
+            <tr>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">CUENTAS PATRIMONIALES</td>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">CAPITAL</td>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">CAPITAL ADICIONAL</td>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">ACCIONES DE INVERSION</td>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">EXCEDENTE DE REVALUACION</td>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">RESERVA LEGAL</td>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">OTRAS RESERVAS</td>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">RESULTADOS ACUMULADOS</td>
+               <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">TOTAL</td>
+            </tr>
+            <#list movements as mov>
+                <tr>
+                    <td width="25%" style= "border-right:1px solid black" align = "left">${mov.col1}</td>
+                    <td width="25%" style= "border-right:1px solid black" align = "center">${mov.col2}</td>
+                    <td width="25%" style= "border-right:1px solid black" align = "right">${mov.col3}</td>
+                    <td width="25%" style= "border-right:1px solid black" align = "right">${mov.col4}</td>
+                    <td width="25%" style= "border-right:1px solid black" align = "right">${mov.col5}</td>
+                    <td width="25%" style= "border-right:1px solid black" align = "right">${mov.col6}</td>
+                    <td width="25%" style= "border-right:1px solid black" align = "right">${mov.col7}</td>
+                    <td width="25%" style= "border-right:1px solid black" align = "right">${mov.col8}</td>
+                    <td width="25%" style= "border-right:1px solid black" align = "right">${mov.col9}</td>
+                </tr>
+            </#list>
+             <tr>
+                  <td width="25%" align = "center">${totals.col1}</td>
+                  <td width="25%" align = "center">${totals.col2}</td>
+                  <td width="25%" style= "border:1px solid black; font-weight:bold" align = "right">${totals.col3}</td>
+                  <td width="25%" style= "border:1px solid black; font-weight:bold" align = "right">${totals.col4}</td>
+                  <td width="25%" style= "border:1px solid black; font-weight:bold" align = "right">${totals.col5}</td>
+                  <td width="25%" style= "border:1px solid black; font-weight:bold" align = "right">${totals.col6}</td>
+                  <td width="25%" style= "border:1px solid black; font-weight:bold" align = "right">${totals.col7}</td>
+                  <td width="25%" style= "border:1px solid black; font-weight:bold" align = "right">${totals.col8}</td>
+                  <td width="25%" style= "border:1px solid black; font-weight:bold" align = "right">${totals.col9}</td>
+               </tr>
+        </table>
+    </body>
+</pdf>

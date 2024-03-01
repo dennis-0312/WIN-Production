@@ -1,0 +1,91 @@
+<#assign data = input.data?eval >
+<#assign company = data.company >
+<#assign total = data.total >
+<#assign movements = data.movements >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+   <head>
+      <meta name="title" value="Formato 3.13" />
+      <macrolist>
+         <macro id = "cabecera">
+            <table width="100%">
+                <tr>
+                  <td align="center" style="font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; text-align:center;">${company.formato}</td>
+               </tr>
+               <tr>
+                  <td align="left" height="10px"> </td>
+               </tr>
+               <tr>
+                  <td align="left" style="font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold;">${company.ejercicio}</td>
+               </tr>
+               <tr>
+                  <td align="left" style="font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold;">${company.ruc}</td>
+               </tr>
+               <tr>
+                  <td align="left" style="font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold;">${company.name}</td>
+               </tr>
+               <tr>
+                  <td align="left" height="10px"> </td>
+               </tr>
+            </table>
+         </macro>
+      </macrolist>
+   </head>
+   <body background-color="white" font-size="8" size="A4-landscape" header = "cabecera" header-height="30mm" footer-height="10mm">
+      <table style="font-family: Verdana, Arial, Helvetica, sans-serif; width:100%" >
+        <thead>
+         <tr>
+            <th  align="center" style="border:1px solid black; font-weight:bold; padding: 5px; text-align:center;" colspan="3">INFORMACIÓN DE TERCEROS</th>
+            <th  align="center" style="border:1px solid black; font-weight:bold; padding: 5px; text-align:center; vertical-align: middle" rowspan="3">DESCRIPCIÓN DE LA OBLIGACIÓN</th>
+            <th  align="center" style="border:1px solid black; font-weight:bold; padding: 5px; text-align:center; vertical-align: middle" rowspan="3">
+              <table>
+                <tr><td align="center" style="text-align:center;">FECHA DE EMISIÓN DEL</td></tr>
+                <tr><td align="center" style="text-align:center;">COMPROBANTE DE PAGO</td></tr>
+                <tr><td align="center" style="text-align:center;">O FECHA DE INICIO</td></tr>
+                <tr><td align="center" style="text-align:center;">DE LA OPERACIÓN</td></tr>
+              </table> 
+            </th>
+            <th   align="center" style="border:1px solid black; font-weight:bold; padding: 5px; text-align:center; vertical-align: middle" rowspan="3">
+              <table>
+                <tr><td align="center" style="text-align:center;">MONTO</td></tr>
+                <tr><td align="center" style="text-align:center;">PENDIENTE</td></tr>
+                <tr><td align="center" style="text-align:center;">DE PAGO</td></tr>
+              </table> 
+            </th>
+         </tr>
+          <tr>
+            <th align="center" style="border:1px solid black; font-weight:bold; padding: 5px; text-align:center;" colspan="2">DOCUMENTO DE IDENTIDAD</th>
+            <th align="center" style="border:1px solid black; font-weight:bold; padding: 10px; text-align:center; vertical-align: middle" rowspan="3">
+              <table>
+                <tr><td align="center" style="text-align:center;">APELLIDOS Y NOMBRES, DENOMINACIÓN</td></tr>
+                <tr><td align="center" style="text-align:center;">O RAZÓN SOCIAL</td></tr>
+              </table>              
+            </th>
+         </tr>
+         <tr>
+            <th  align="center" style="border:1px solid black; font-weight:bold; padding: 5px; text-align:center;" >TIPO (TABLA 2)</th>
+            <th  align="center" style="border:1px solid black; font-weight:bold; padding: 5px; text-align:center;" >NÚMERO</th>
+         </tr>
+        </thead>
+         <#list movements as key,mov>
+            <tr>
+               <td align="center">${mov.tipoDNITerceros}</td>
+               <td align="center">${mov.numDNITerceros}</td>
+               <td align="left">${mov.nombresTerceros}</td>
+               <td align="left">${mov.description}</td>
+               <td align="center">${mov.fechaEmision}</td>
+               <td align="right">${mov.monto}</td>
+            </tr>
+         </#list>
+          <tr>
+               <td  align="center" style="border-top:1px solid black"></td>
+               <td align="center" style="border-top:1px solid black"></td>
+               <td  align="center" style="border-top:1px solid black"></td>
+               <td  align="center" style="border-top:1px solid black"></td>
+               <td  align="center" style="border:1px solid black; font-weight:bold;font-size: 11px;">SALDO TOTAL</td>
+               <td  align="right" style="border:1px solid black; font-weight:bold;font-size: 11px;">${total.total}</td>
+          </tr>
+      </table>  
+  </body>
+</pdf>

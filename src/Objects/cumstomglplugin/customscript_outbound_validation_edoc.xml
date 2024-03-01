@@ -1,0 +1,13 @@
+<pluginimplementation scriptid="customscript_outbound_validation_edoc">
+  <customplugintype>[scriptid=customscript_ei_pl_outbound_validation]</customplugintype>
+  <description>Plugin para proceso de generación.</description>
+  <isinactive>F</isinactive>
+  <loglevel>DEBUG</loglevel>
+  <name>E-Document Outbound Validation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/TS NET Scripts/core/plugin/TS_PL_Outbound_Validation.js]</scriptfile>
+  <status>RELEASED</status>
+</pluginimplementation>

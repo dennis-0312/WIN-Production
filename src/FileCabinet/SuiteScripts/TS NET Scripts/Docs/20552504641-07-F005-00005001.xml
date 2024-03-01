@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"><ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="IdSingEfact"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>BAezRTCBFtOMp5GI4szOmt5VLjY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>jGnonFkm9oqB6u30B9dfHWOH9kGLlgM4xuIcA1jmma1T7KHkvhPag61KkHv59+vJMkBSYeKKBr5Eha6RfH5RIzWQ+H1ROXdUTH+AU1Uj7eZI6f8cIDn9ddgk2MMJJBPFvp96pe5KqVLUu0fejCx7yeWwVWQ+7lpLdGUZOSI2euycre98OEbZ+qQRM1NGejYK+CBBZWGBXxEFmFZ3GQhy1TeWVKBc8I7NBxjq16HmVfgec8R5mYUh5iM1afVFIK/V/j/ZMl513hte7VgkCY8ychSpZVFEUCziBgsau2pJzmSptZz3Q9gnhTecC888GEeB87feiOiYfApOwlKpjwWBEg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate><ds:X509IssuerSerial><ds:X509IssuerName>1.2.840.113549.1.9.1=#1612726d616e74696c6c614065666163742e7065,CN=EFACT S.A.C.,OU=RENAN MARTIN MANTILLA RAMIREZ - DNI 41710212,OU=Certificado corporativo de representación,OU=Validated by Peru Secure E Net SAC,OU=JEFE DE OPERACIONES,OU=RUC: 20551093035,O=EFACT S.A.C.,L=Lima,C=PE</ds:X509IssuerName><ds:X509SerialNumber>1137338135814772988886909172314798513226539601</ds:X509SerialNumber></ds:X509IssuerSerial></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+   <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+   <cbc:CustomizationID>2.0</cbc:CustomizationID>
+   <cbc:ID>F005-00005001</cbc:ID>
+   <cbc:IssueDate>2024-01-25</cbc:IssueDate>
+   <cbc:IssueTime>00:00:00</cbc:IssueTime>
+   <cbc:Note languageLocaleID="1000">SEIS MIL SEISCIENTOS CUARENTA Y TRES CON 40/100 SOLES </cbc:Note>
+   <cbc:Note>OBSERVACIONES GENERALES</cbc:Note>
+   <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+   <cac:DiscrepancyResponse>
+      <cbc:ResponseCode listAgencyName="PE:SUNAT" listName="Tipo de nota de credito" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo09">01</cbc:ResponseCode>
+      <cbc:Description>Anulacion de la operacion</cbc:Description>
+   </cac:DiscrepancyResponse>
+   <cac:BillingReference>
+      <cac:InvoiceDocumentReference>
+         <cbc:ID>F002-00007524</cbc:ID>
+         <cbc:IssueDate>2024-01-25</cbc:IssueDate>
+         <cbc:DocumentTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">01</cbc:DocumentTypeCode>
+      </cac:InvoiceDocumentReference>
+   </cac:BillingReference>
+   <cac:Signature>
+      <cbc:ID>IDSignature</cbc:ID>
+      <cac:SignatoryParty>
+         <cac:PartyIdentification>
+            <cbc:ID>20552504641</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>WIN EMPRESAS S.A.C.</cbc:Name>
+         </cac:PartyName>
+      </cac:SignatoryParty>
+      <cac:DigitalSignatureAttachment>
+         <cac:ExternalReference>
+            <cbc:URI>IDSignature</cbc:URI>
+         </cac:ExternalReference>
+      </cac:DigitalSignatureAttachment>
+   </cac:Signature>
+   <cac:AccountingSupplierParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20552504641</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>WIN EMPRESAS S.A.C.</cbc:Name>
+         </cac:PartyName>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>WIN EMPRESAS S.A.C.</cbc:RegistrationName>
+            <cac:RegistrationAddress>
+               <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos"/>
+               <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>
+               <cbc:CityName>San Borja</cbc:CityName>
+               <cbc:CountrySubentity>Lima</cbc:CountrySubentity>
+               <cbc:District/>
+               <cac:AddressLine>
+                  <cbc:Line>AV. JOSE GALVEZ BARRENECHEA NRO. 645 URB. CORPAC</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country">PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:RegistrationAddress>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+   </cac:AccountingSupplierParty>
+   <cac:AccountingCustomerParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20603291833</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>EMFITEL S.A.C</cbc:Name>
+         </cac:PartyName>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>EMFITEL S.A.C</cbc:RegistrationName>
+            <cac:RegistrationAddress>
+               <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos"/>
+               <cbc:CityName/>
+               <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+               <cbc:District/>
+               <cac:AddressLine>
+                  <cbc:Line>CAL.RODOLFO BELTRAN NRO. 144 URB. SANTA CATALINA (A LA ESPALDA DE EMPRESA CLARO) LIMA - LIMA - LA VICTORIA</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country">PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:RegistrationAddress>
+         </cac:PartyLegalEntity>
+         <cac:Contact>
+            <cbc:ElectronicMail>ercrguro@gmail.com</cbc:ElectronicMail>
+         </cac:Contact>
+      </cac:Party>
+   </cac:AccountingCustomerParty>
+   <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">1013.4</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+         <cbc:TaxableAmount currencyID="PEN">5630.00</cbc:TaxableAmount>
+         <cbc:TaxAmount currencyID="PEN">1013.40</cbc:TaxAmount>
+         <cac:TaxCategory>
+            <cac:TaxScheme>
+               <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+               <cbc:Name>IGV</cbc:Name>
+               <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+            </cac:TaxScheme>
+         </cac:TaxCategory>
+      </cac:TaxSubtotal>
+   </cac:TaxTotal>
+   <cac:LegalMonetaryTotal>
+      <cbc:LineExtensionAmount currencyID="PEN">5630.00</cbc:LineExtensionAmount>
+      <cbc:PayableAmount currencyID="PEN">6643.4</cbc:PayableAmount>
+   </cac:LegalMonetaryTotal>
+   <cac:CreditNoteLine>
+      <cbc:ID>1</cbc:ID>
+      <cbc:Note>NIU</cbc:Note>
+      <cbc:CreditedQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">100</cbc:CreditedQuantity>
+      <cbc:LineExtensionAmount currencyID="PEN">600.00</cbc:LineExtensionAmount>
+      <cac:PricingReference>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">6.00</cbc:PriceAmount>
+            <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+      </cac:PricingReference>
+      <cac:TaxTotal>
+         <cbc:TaxAmount currencyID="PEN">108</cbc:TaxAmount>
+         <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">600.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">108</cbc:TaxAmount>
+            <cac:TaxCategory>
+               <cbc:Percent>18</cbc:Percent>
+               <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+               <cac:TaxScheme>
+                  <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                  <cbc:Name>IGV</cbc:Name>
+                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+               </cac:TaxScheme>
+            </cac:TaxCategory>
+         </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <cac:Item>
+         <cbc:Description>FIBRA OPTICA ADSS 96H SPAN 100 (MDPE) OFC-96G.652D-FRP / ANTIROEDOR</cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>10020402000018</cbc:ID>
+         </cac:SellersItemIdentification>
+      </cac:Item>
+      <cac:Price>
+         <cbc:PriceAmount currencyID="PEN">6.00</cbc:PriceAmount>
+      </cac:Price>
+   </cac:CreditNoteLine>
+   <cac:CreditNoteLine>
+      <cbc:ID>2</cbc:ID>
+      <cbc:Note>NIU</cbc:Note>
+      <cbc:CreditedQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1000</cbc:CreditedQuantity>
+      <cbc:LineExtensionAmount currencyID="PEN">5000.00</cbc:LineExtensionAmount>
+      <cac:PricingReference>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+            <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+      </cac:PricingReference>
+      <cac:TaxTotal>
+         <cbc:TaxAmount currencyID="PEN">900</cbc:TaxAmount>
+         <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">5000.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">900</cbc:TaxAmount>
+            <cac:TaxCategory>
+               <cbc:Percent>18</cbc:Percent>
+               <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+               <cac:TaxScheme>
+                  <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                  <cbc:Name>IGV</cbc:Name>
+                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+               </cac:TaxScheme>
+            </cac:TaxCategory>
+         </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <cac:Item>
+         <cbc:Description>CABLE DE FIBRA OPTICA 24 HILOS ADSS SPAN 120 (FO24HADSS120LS)</cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>10020402000001</cbc:ID>
+         </cac:SellersItemIdentification>
+      </cac:Item>
+      <cac:Price>
+         <cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+      </cac:Price>
+   </cac:CreditNoteLine>
+   <cac:CreditNoteLine>
+      <cbc:ID>3</cbc:ID>
+      <cbc:Note>NIU</cbc:Note>
+      <cbc:CreditedQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">5</cbc:CreditedQuantity>
+      <cbc:LineExtensionAmount currencyID="PEN">25.00</cbc:LineExtensionAmount>
+      <cac:PricingReference>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+            <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+      </cac:PricingReference>
+      <cac:TaxTotal>
+         <cbc:TaxAmount currencyID="PEN">4.5</cbc:TaxAmount>
+         <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">25.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">4.5</cbc:TaxAmount>
+            <cac:TaxCategory>
+               <cbc:Percent>18</cbc:Percent>
+               <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+               <cac:TaxScheme>
+                  <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                  <cbc:Name>IGV</cbc:Name>
+                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+               </cac:TaxScheme>
+            </cac:TaxCategory>
+         </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <cac:Item>
+         <cbc:Description>PREFORMADO DE 2 HILOS PARA FO ADSS 48H (VERDE)</cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>10020100400005</cbc:ID>
+         </cac:SellersItemIdentification>
+      </cac:Item>
+      <cac:Price>
+         <cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+      </cac:Price>
+   </cac:CreditNoteLine>
+   <cac:CreditNoteLine>
+      <cbc:ID>4</cbc:ID>
+      <cbc:Note>NIU</cbc:Note>
+      <cbc:CreditedQuantity unitCode="NIU" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1</cbc:CreditedQuantity>
+      <cbc:LineExtensionAmount currencyID="PEN">5.00</cbc:LineExtensionAmount>
+      <cac:PricingReference>
+         <cac:AlternativeConditionPrice>
+            <cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+            <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+         </cac:AlternativeConditionPrice>
+      </cac:PricingReference>
+      <cac:TaxTotal>
+         <cbc:TaxAmount currencyID="PEN">0.9</cbc:TaxAmount>
+         <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">5.00</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">0.9</cbc:TaxAmount>
+            <cac:TaxCategory>
+               <cbc:Percent>18</cbc:Percent>
+               <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+               <cac:TaxScheme>
+                  <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                  <cbc:Name>IGV</cbc:Name>
+                  <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+               </cac:TaxScheme>
+            </cac:TaxCategory>
+         </cac:TaxSubtotal>
+      </cac:TaxTotal>
+      <cac:Item>
+         <cbc:Description>PREFORMADO 4 HILOS PARA FO ADSS 96H</cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>10020100400002</cbc:ID>
+         </cac:SellersItemIdentification>
+      </cac:Item>
+      <cac:Price>
+         <cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+      </cac:Price>
+   </cac:CreditNoteLine>
+</CreditNote>

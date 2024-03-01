@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_pe_anexo_13">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Anexo 13</name>
+  <customvalues>
+    <customvalue scriptid="val_117113_7217974_sb1_622">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>1</value>
+    </customvalue>
+    <customvalue scriptid="val_117114_7217974_sb1_534">
+      <abbreviation>3</abbreviation>
+      <isinactive>F</isinactive>
+      <value>3</value>
+    </customvalue>
+    <customvalue scriptid="val_117115_7217974_sb1_718">
+      <abbreviation>9</abbreviation>
+      <isinactive>F</isinactive>
+      <value>9</value>
+    </customvalue>
+  </customvalues>
+</customlist>

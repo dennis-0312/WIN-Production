@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_pe_cond_contri_list">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Lista Condición del Contri</name>
+  <customvalues>
+    <customvalue scriptid="val_114177_7217974_sb1_746">
+      <abbreviation>H</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Habido</value>
+    </customvalue>
+    <customvalue scriptid="val_114178_7217974_sb1_729">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>No Habido</value>
+    </customvalue>
+  </customvalues>
+</customlist>

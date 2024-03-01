@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_wn_ss_programado">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>WN_SS_Programado</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/Capacitacion/core/WN_SS_Programado.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_wn_ss_programado">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>WN_SS_Programado</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2024-01-09</startdate>
+          <starttime>23:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

@@ -1,0 +1,9 @@
+<advancedpdftemplate scriptid="custtmpl_113_6125688_sb1_169" standard="STDTMPLSALESORD">
+  <description>Plantilla de impresión</description>
+  <displaysourcecode>F</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>F</preferred>
+  <printtype>TRANSACTION</printtype>
+  <title>Orden de Venta</title>
+  <trantype>SALESORD</trantype>
+</advancedpdftemplate>

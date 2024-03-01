@@ -1,0 +1,9 @@
+<advancedpdftemplate scriptid="custtmpl_121_6125688_sb1_624" standard="STDTMPLPICKINGTICKET">
+  <description></description>
+  <displaysourcecode>F</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>T</preferred>
+  <printtype>PICKINGTICKET</printtype>
+  <title>PE Comprobante de retiro</title>
+  <trantype>CUSTINVC</trantype>
+</advancedpdftemplate>

@@ -1,0 +1,3 @@
+External ID,Subsidiary,Currency,Exchange Rate,Date,Posting Period,Account,Debit,Credit,Department,Location,Class,Name,Memo,Account ID,PE Detraccion,PE LN Detraccion,PE LN Vendor,PE LN Bill Detraccion,PE LN Detraccion Date,PE LN Detraccion Number,Proveedor,Numero de Documento
+DET31012024,2,Soles,1,31/1/24,AF 2024,421213 421213 DETRACCIONES POR PAGAR SOLES,142.00,0,ADMINISTRACIÓN : CONTABILIDAD : ADMINISTRACIÓN : CONTABILIDAD,LIMA 10,B2B : EMPRESAS,,Pago de Detracciones Periodo ene 2024,2636,T,T,1765,41546,,,COMPAÑÍA MAGRA SAC,F030-00876563
+DET31012024,2,Soles,1,31/1/24,AF 2024,10 EFECTIVO Y EQUIVALENTES DE EFECTIVO : 101 CAJA : 1011 CAJA OPERATIVA : 101101 CAJA CHICA,0,142.00,,,,,Pago de Detracciones Periodo ene 2024,323,,,,,,,,,

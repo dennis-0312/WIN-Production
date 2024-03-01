@@ -1,0 +1,59 @@
+<customlist scriptid="customlistcustomlist_pe_tipo_factura">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Tipo de Factura</name>
+  <customvalues>
+    <customvalue scriptid="val_35102_6125688_sb1_578">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0101 Venta lnterna</value>
+    </customvalue>
+    <customvalue scriptid="val_35103_6125688_sb1_972">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0102 Exportación</value>
+    </customvalue>
+    <customvalue scriptid="val_35104_6125688_sb1_548">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0103 No Domiciliados</value>
+    </customvalue>
+    <customvalue scriptid="val_35105_6125688_sb1_451">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0104 Venta Interna – Anticipos</value>
+    </customvalue>
+    <customvalue scriptid="val_35106_6125688_sb1_891">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0105 Venta Itinerante </value>
+    </customvalue>
+    <customvalue scriptid="val_35107_6125688_sb1_737">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0106 Factura Guía</value>
+    </customvalue>
+    <customvalue scriptid="val_35108_6125688_sb1_780">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0107 Venta Arroz Pilado</value>
+    </customvalue>
+    <customvalue scriptid="val_35109_6125688_sb1_205">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0108 Factura - Comprobante de Percepción</value>
+    </customvalue>
+    <customvalue scriptid="val_35110_6125688_sb1_485">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0110 Factura - Guía remitente</value>
+    </customvalue>
+    <customvalue scriptid="val_35111_6125688_sb1_974">
+      <abbreviation>0</abbreviation>
+      <isinactive>F</isinactive>
+      <value>0111 Factura - Guía transportista</value>
+    </customvalue>
+  </customvalues>
+</customlist>

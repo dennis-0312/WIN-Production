@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_wn_rs_crud_cliente">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>WN_RS_CRUD_Cliente</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Capacitacion/core/WN_RS_CRUD_Cliente.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_wn_rs_crud_cliente">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>WN_RS_CRUD_Cliente</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

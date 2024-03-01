@@ -1,0 +1,63 @@
+<#assign company = input.company >
+<#assign totalDebit = input.totalDebit >
+<#assign totalCredit = input.totalCredit >
+<#assign movements = input.movements >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+   <head>
+      <meta name="title" value="Formato 6.1" />
+      <macrolist>
+         <macro id = "cabecera">
+            <table width="100%">
+               <tr>
+                  <td colspan="4" width="100%" align="center"><b>${company.firtsTitle}</b></td>
+               </tr>
+                <tr>
+                    <td width="50%" align="left"><b>PERIODO</b></td>
+                    <td width="5%" align="right"><b>:</b></td>
+                    <td width="30%" align="left">${company.secondTitle}</td>
+                    <td width="15%" align="left"></td>
+               </tr>
+                <tr>
+                    <td width="50%" align="left"><b>RUC</b></td>
+                    <td width="5%" align="right"><b>:</b></td>
+                    <td width="30%" align="left">${company.thirdTitle}</td>
+                    <td width="15%" align="left"></td>
+               </tr>
+                <tr>
+                    <td width="50%" align="left"><b>APELLIDOS Y NOMBRES, DENOMINACION O RAZON SOCIAL</b></td>
+                    <td width="5%" align="right"><b>:</b></td>
+                    <td width="30%" align="left">${company.fourthTitle}</td>
+                    <td width="15%" align="left"></td>
+               </tr>
+            </table>
+            <table style="font-family: Verdana, Arial, Helvetica, sans-serif; width:100%" >
+               <tr>
+                  <td width="25%" rowspan="2" align = "center " style= "border:1px solid black; font-weight:bold">FECHA DE LA OPERACIÓN</td>
+                  <td width="25%" rowspan="2" align = "center " style= "border:1px solid black; font-weight:bold">NÚMERO CORRELATIVO DEL LIBRO DIARIO (2)</td>
+                  <td width="25%" rowspan="2" align = "center " style= "border:1px solid black; font-weight:bold">DESCRIPCIÓN O GLOSA DE LA OPERACIÓN</td>
+                  <td width="25%" colspan="2" align = "center " style= "border:1px solid black; font-weight:bold">SALDOS Y MOVIMIENTOS</td>
+               </tr>
+               <tr>
+                  <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">DEUDOR</td>
+                  <td width="25%" align = "center " style= "border:1px solid black; font-weight:bold">ACREDOR</td>
+               </tr>
+            </table>
+         </macro>
+      </macrolist>
+   </head>
+    <body background-color="white" font-size="8" size="A4-landscape" header = "cabecera" header-height="35mm" footer-height="10mm">
+        <table>
+            <#list movements as mov>
+                <tr>
+                    <td width="25%" align = "left">${mov.col1}</td>
+                    <td width="25%" align = "center">${mov.col2}</td>
+                    <td width="25%" align = "center">${mov.col3}</td>
+                    <td width="25%" align = "right">${mov.col4}</td>
+                    <td width="25%" align = "right">${mov.col5}</td>
+                </tr>
+            </#list>
+        </table>
+    </body>
+</pdf>

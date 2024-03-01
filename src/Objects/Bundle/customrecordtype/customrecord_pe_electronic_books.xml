@@ -1,0 +1,381 @@
+<customrecordtype scriptid="customrecord_pe_electronic_books">
+  <accesstype>NONENEEDED</accesstype>
+  <allowattachments>F</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>T</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>F</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <customsegment></customsegment>
+  <description></description>
+  <enabledle>T</enabledle>
+  <enablekeywords>F</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>T</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>F</includeinsearchmenu>
+  <includename>T</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>PE Electronic Books</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>T</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_pe_suite_schedule_eb">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>PE SuiteSchedule EB</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_19560_7460686_372">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Analisis: Balance de Comprobacion (Anual)</name>
+    </instance>
+    <instance scriptid="val_19561_7460686_817">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Analisis: Balance de Comprobacion (Mensual)</name>
+    </instance>
+    <instance scriptid="val_19562_7460686_857">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Anual: Inv. Balance - Detalle 10</name>
+    </instance>
+    <instance scriptid="val_19563_7460686_816">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.3 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 12 CUENTAS POR COBRAR COMERCIALES – TERCEROS Y 13 CUENTAS POR COBRAR COMERCIALES – RELACIONADAS</name>
+    </instance>
+    <instance scriptid="val_19564_7460686_994">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.4 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO  DE LA CUENTA 14 CUENTAS POR COBRAR AL PERSONAL, A LOS ACCIONISTAS (SOCIOS), DIRECTORES Y GERENTES</name>
+    </instance>
+    <instance scriptid="val_19565_7460686_610">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.5 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO  DE LA CUENTA 16 CUENTAS POR COBRAR DIVERSAS - TERCEROS O CUENTA 17 - CUENTAS POR COBRAR DIVERSAS - RELACIONADAS</name>
+    </instance>
+    <instance scriptid="val_19566_7460686_568">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.6 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 19 ESTIMACIÓN DE CUENTAS DE COBRANZA DUDOSA</name>
+    </instance>
+    <instance scriptid="val_19567_7460686_382">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.7 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 20 - MERCADERIAS Y LA CUENTA 21 - PRODUCTOS TERMINADOS</name>
+    </instance>
+    <instance scriptid="val_19568_7460686_851">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Anual: Inv. Balance - Detalle 30</name>
+    </instance>
+    <instance scriptid="val_19569_7460686_182">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.9 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 34 - INTANGIBLES</name>
+    </instance>
+    <instance scriptid="val_19570_7460686_147">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Anual: Inv. Balance - Detalle 37</name>
+    </instance>
+    <instance scriptid="val_19571_7460686_879">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Anual: Inv. Balance - Detalle 41</name>
+    </instance>
+    <instance scriptid="val_19572_7460686_800">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.12 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 42 CUENTAS POR PAGAR COMERCIALES – TERCEROS Y LA CUENTA 43 CUENTAS POR PAGAR COMERCIALES – RELACIONADAS</name>
+    </instance>
+    <instance scriptid="val_19573_7460686_560">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.13 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 46 CUENTAS POR PAGAR DIVERSAS – TERCEROS Y DE LA CUENTA 47 CUENTAS POR PAGAR DIVERSAS – RELACIONADAS</name>
+    </instance>
+    <instance scriptid="val_19574_7460686_233">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Anual: Inv. Balance - Detalle 50</name>
+    </instance>
+    <instance scriptid="val_19575_7460686_115">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.1 LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE SITUACIÓN FINANCIERA</name>
+    </instance>
+    <instance scriptid="val_19576_7460686_361">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Mensual: Kardex - Reg. Inventario Permanente Valorizado</name>
+    </instance>
+    <instance scriptid="val_19577_7460686_642">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Mensual: Libro de Retenciones 4.1</name>
+    </instance>
+    <instance scriptid="val_19578_7460686_751">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>5.1 LIBRO DIARIO</name>
+    </instance>
+    <instance scriptid="val_19579_7460686_282">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>Mensual: Libro Mayor 6.1</name>
+    </instance>
+    <instance scriptid="val_19580_7460686_105">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Mensual: Libro PLAME 4ta</name>
+    </instance>
+    <instance scriptid="val_19581_7460686_747">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>8.1/8.2 REGISTRO DE COMPRAS</name>
+    </instance>
+    <instance scriptid="val_19582_7460686_964">
+      <custrecord_pe_suite_schedule_eb>123456</custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>14.1 REGISTRO DE VENTAS E INGRESOS</name>
+    </instance>
+    <instance scriptid="val_19583_7460686_111">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Mensual: Reg. de Ventas 14.1 (Resumen)</name>
+    </instance>
+    <instance scriptid="val_42540_7460686_sb1_646">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>1.2 LIBRO CAJA Y BANCOS - DETALLE DE LOS MOVIMIENTOS DE LA CUENTA CORRIENTE</name>
+    </instance>
+    <instance scriptid="val_42954_7460686_sb1_420">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>1.1 LIBRO CAJA Y BANCOS - DETALLE DE LOS MOVIMIENTOS DEL EFECTIVO</name>
+    </instance>
+    <instance scriptid="val_42955_7460686_sb1_211">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>5.3 LIBRO DIARIO - DETALLE DEL PLAN CONTABLE UTILIZADO</name>
+    </instance>
+    <instance scriptid="val_43927_7460686_sb1_446">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.2 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 10 EFECTIVO Y EQUIVALENTES DE EFECTIVO</name>
+    </instance>
+    <instance scriptid="val_44620_7460686_sb1_294">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.15 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 37 ACTIVO DIFERIDO Y DE LA CUENTA 49 PASIVO DIFERIDO</name>
+    </instance>
+    <instance scriptid="val_44623_7460686_sb1_209">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.14 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 47 - BENEFICIOS SOCIALES DE LOS TRABAJADORES (PCGR) - NO APLICABLE PARA EL PCGE</name>
+    </instance>
+    <instance scriptid="val_45085_7460686_sb1_677">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.20 - Anual: Libro de Inventario y Balances - Estado de resultados</name>
+    </instance>
+    <instance scriptid="val_45086_7460686_sb1_702">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.24 LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE RESULTADOS INTEGRALES</name>
+    </instance>
+    <instance scriptid="val_45087_7460686_sb1_672">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.25 LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE FLUJOS DE EFECTIVO - MÉTODO INDIRECTO</name>
+    </instance>
+    <instance scriptid="val_45137_7460686_sb1_260">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>13.1 REGISTRO DEL INVENTARIO PERMANENTE VALORIZADO - DETALLE DEL INVENTARIO VALORIZADO</name>
+    </instance>
+    <instance scriptid="val_50865_7460686_sb1_888">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.17 LIBRO DE INVENTARIOS Y BALANCES - BALANCE DE COMPROBACIÓN</name>
+    </instance>
+    <instance scriptid="val_53098_7460686_sb1_759">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>12.1 REGISTRO DEL INVENTARIO PERMANENTE EN UNIDADES FÍSICAS - DETALLE DEL INVENTARIO PERMANENTE EN UNIDADES FÍSICAS</name>
+    </instance>
+    <instance scriptid="val_779472_6785603_sb1_928">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>9.1 REGISTRO DE CONSIGNACIONES - PARA EL CONSIGNADOR - CONTROL DE BIENES ENTREGADOS EN CONSIGNACIÓN</name>
+    </instance>
+    <instance scriptid="val_779853_6785603_sb1_863">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Mensual: Reg. de Compras 8.1</name>
+    </instance>
+    <instance scriptid="val_828936_6785603_sb1_934">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>9.2 REGISTRO DE CONSIGNACIONES - PARA EL CONSIGNATARIO - CONTROL DE BIENES RECIBIDOS EN CONSIGNACIÓN</name>
+    </instance>
+    <instance scriptid="val_54812_8417837_sb1_506">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>Reporte - Ordenes de Venta</name>
+    </instance>
+    <instance scriptid="val_54846_8417837_sb1_618">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>Mensual: Recibos por Honorarios</name>
+    </instance>
+    <instance scriptid="val_57350_8417837_sb1_110">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>Mensual: Libro de Inventario y Balances - Detalle del Saldo de la Cuenta 34 - 3.9</name>
+    </instance>
+    <instance scriptid="val_57368_8417837_sb1_904">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>7.1 REGISTRO DE ACTIVOS FIJOS - DETALLE DE LOS ACTIVOS FIJOS REVALUADOS Y NO REVALUADOS</name>
+    </instance>
+    <instance scriptid="val_446030_8417837_sb1_316">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>Comprobantes de Retención</name>
+    </instance>
+    <instance scriptid="val_451321_8417837_sb1_751">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 1.1</name>
+    </instance>
+    <instance scriptid="val_451322_8417837_sb1_172">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 1.2</name>
+    </instance>
+    <instance scriptid="val_451324_8417837_sb1_862">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 3.4</name>
+    </instance>
+    <instance scriptid="val_451325_8417837_sb1_366">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 3.5</name>
+    </instance>
+    <instance scriptid="val_451326_8417837_sb1_437">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 3.6</name>
+    </instance>
+    <instance scriptid="val_451327_8417837_sb1_975">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 3.9</name>
+    </instance>
+    <instance scriptid="val_451328_8417837_sb1_307">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.10 LIBRO DE INVENTARIOS Y BALANCES -  DETALLE DEL SALDO DE LA CUENTA 40 - TRIBUTOS POR PAGAR</name>
+    </instance>
+    <instance scriptid="val_451329_8417837_sb1_926">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.11 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 41 REMUNERACIONES Y PARTICIPACIONES POR PAGAR</name>
+    </instance>
+    <instance scriptid="val_451330_8417837_sb1_665">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 3.12</name>
+    </instance>
+    <instance scriptid="val_451331_8417837_sb1_264">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 3.13</name>
+    </instance>
+    <instance scriptid="val_451332_8417837_sb1_366">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>T</isinactive>
+      <name>FORMATO 3.15</name>
+    </instance>
+    <instance scriptid="val_451334_8417837_sb1_373">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.19 LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE CAMBIOS EN EL PATRIMONIO NETO</name>
+    </instance>
+    <instance scriptid="val_451336_8417837_sb1_219">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>4.1 LIBRO DE RETENCIONES INCISO E) Y F) DEL ART. 34° DE LA LEY DEL IMPUESTO A LA RENTA</name>
+    </instance>
+    <instance scriptid="val_452100_8417837_sb1_484">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.18 LIBRO DE INVENTARIOS Y BALANCES - ESTADO DE FLUJOS DE EFECTIVO - MÉTODO DIRECTO</name>
+    </instance>
+    <instance scriptid="val_947611_6125688_sb1_662">
+      <custrecord_pe_suite_schedule_eb></custrecord_pe_suite_schedule_eb>
+      <isinactive>F</isinactive>
+      <name>3.8 LIBRO DE INVENTARIOS Y BALANCES - DETALLE DEL SALDO DE LA CUENTA 30 INVERSIONES MOBILIARIAS</name>
+    </instance>
+  </instances>
+</customrecordtype>

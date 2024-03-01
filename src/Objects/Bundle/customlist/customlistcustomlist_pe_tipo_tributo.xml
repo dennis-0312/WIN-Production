@@ -1,0 +1,44 @@
+<customlist scriptid="customlistcustomlist_pe_tipo_tributo">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Tipo Tributo</name>
+  <customvalues>
+    <customvalue scriptid="val_35114_6125688_sb1_322">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>1000 - IGV</value>
+    </customvalue>
+    <customvalue scriptid="val_35115_6125688_sb1_465">
+      <abbreviation>2</abbreviation>
+      <isinactive>F</isinactive>
+      <value>2000 - ISC</value>
+    </customvalue>
+    <customvalue scriptid="val_35116_6125688_sb1_337">
+      <abbreviation>9</abbreviation>
+      <isinactive>F</isinactive>
+      <value>9995 - EXPORTACIÓN</value>
+    </customvalue>
+    <customvalue scriptid="val_35117_6125688_sb1_134">
+      <abbreviation>9</abbreviation>
+      <isinactive>F</isinactive>
+      <value>9996 - GRATUITO</value>
+    </customvalue>
+    <customvalue scriptid="val_35118_6125688_sb1_134">
+      <abbreviation>9</abbreviation>
+      <isinactive>F</isinactive>
+      <value>9997 - EXONERADO</value>
+    </customvalue>
+    <customvalue scriptid="val_35119_6125688_sb1_458">
+      <abbreviation>9</abbreviation>
+      <isinactive>F</isinactive>
+      <value>9998 - INAFECTO</value>
+    </customvalue>
+    <customvalue scriptid="val_35120_6125688_sb1_853">
+      <abbreviation>9</abbreviation>
+      <isinactive>F</isinactive>
+      <value>9999 - OTROS CONCEPTOS DE PAGO</value>
+    </customvalue>
+  </customvalues>
+</customlist>

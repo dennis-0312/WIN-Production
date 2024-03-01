@@ -1,0 +1,321 @@
+<customrecordtype scriptid="customrecord_pe_operation_type">
+  <accesstype>NONENEEDED</accesstype>
+  <allowattachments>F</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>T</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>T</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <customsegment></customsegment>
+  <description></description>
+  <enabledle>T</enabledle>
+  <enablekeywords>T</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>T</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>T</includeinsearchmenu>
+  <includename>T</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>PE Operation Type</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_pe_code_operation_type">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>PE Code Operation Type</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_19459_7460686_588">
+      <custrecord_pe_code_operation_type>28</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Ajuste por Diferencia de Inventario</name>
+    </instance>
+    <instance scriptid="val_19460_7460686_326">
+      <custrecord_pe_code_operation_type>07</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Bonificación</name>
+    </instance>
+    <instance scriptid="val_19461_7460686_732">
+      <custrecord_pe_code_operation_type>02</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Compra Nacional</name>
+    </instance>
+    <instance scriptid="val_19462_7460686_875">
+      <custrecord_pe_code_operation_type>04</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Consignación Entregada</name>
+    </instance>
+    <instance scriptid="val_19463_7460686_686">
+      <custrecord_pe_code_operation_type>03</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Consignación Recibida</name>
+    </instance>
+    <instance scriptid="val_19464_7460686_371">
+      <custrecord_pe_code_operation_type>14</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Desmedros</name>
+    </instance>
+    <instance scriptid="val_19465_7460686_842">
+      <custrecord_pe_code_operation_type>15</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Destrucción</name>
+    </instance>
+    <instance scriptid="val_19466_7460686_817">
+      <custrecord_pe_code_operation_type>06</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Devolución Entregada</name>
+    </instance>
+    <instance scriptid="val_19467_7460686_667">
+      <custrecord_pe_code_operation_type>05</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Devolución Recibida</name>
+    </instance>
+    <instance scriptid="val_19468_7460686_606">
+      <custrecord_pe_code_operation_type>09</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Donación</name>
+    </instance>
+    <instance scriptid="val_19469_7460686_383">
+      <custrecord_pe_code_operation_type>31</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Entrada de Bienes en Custodia</name>
+    </instance>
+    <instance scriptid="val_19470_7460686_543">
+      <custrecord_pe_code_operation_type>29</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Entrada de Bienes en Préstamo</name>
+    </instance>
+    <instance scriptid="val_19471_7460686_659">
+      <custrecord_pe_code_operation_type>19</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Entrada de Producción</name>
+    </instance>
+    <instance scriptid="val_19472_7460686_145">
+      <custrecord_pe_code_operation_type>26</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Entrada para Servicio de Producción</name>
+    </instance>
+    <instance scriptid="val_19473_7460686_385">
+      <custrecord_pe_code_operation_type>20</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Entrada por Devolución de Producción</name>
+    </instance>
+    <instance scriptid="val_19474_7460686_221">
+      <custrecord_pe_code_operation_type>24</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Entrada por Devolución Del Cliente</name>
+    </instance>
+    <instance scriptid="val_19475_7460686_851">
+      <custrecord_pe_code_operation_type>22</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Entrada por Identificación Erronea</name>
+    </instance>
+    <instance scriptid="val_19476_7460686_622">
+      <custrecord_pe_code_operation_type>21</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Entrada por Transferencia entre Almacenes</name>
+    </instance>
+    <instance scriptid="val_19477_7460686_852">
+      <custrecord_pe_code_operation_type>17</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Exportación</name>
+    </instance>
+    <instance scriptid="val_19478_7460686_670">
+      <custrecord_pe_code_operation_type>35</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Gastos de Representación</name>
+    </instance>
+    <instance scriptid="val_19479_7460686_197">
+      <custrecord_pe_code_operation_type>18</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Importación</name>
+    </instance>
+    <instance scriptid="val_19480_7460686_797">
+      <custrecord_pe_code_operation_type>13</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Mermas</name>
+    </instance>
+    <instance scriptid="val_19481_7460686_683">
+      <custrecord_pe_code_operation_type>33</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Muestras Médicas</name>
+    </instance>
+    <instance scriptid="val_19482_7460686_796">
+      <custrecord_pe_code_operation_type>99</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros</name>
+    </instance>
+    <instance scriptid="val_19483_7460686_498">
+      <custrecord_pe_code_operation_type>91</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros 1</name>
+    </instance>
+    <instance scriptid="val_19484_7460686_895">
+      <custrecord_pe_code_operation_type>92</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros 2</name>
+    </instance>
+    <instance scriptid="val_19485_7460686_859">
+      <custrecord_pe_code_operation_type>93</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros 3</name>
+    </instance>
+    <instance scriptid="val_19486_7460686_482">
+      <custrecord_pe_code_operation_type>94</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros 4</name>
+    </instance>
+    <instance scriptid="val_19487_7460686_961">
+      <custrecord_pe_code_operation_type>95</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros 5</name>
+    </instance>
+    <instance scriptid="val_19488_7460686_894">
+      <custrecord_pe_code_operation_type>96</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros 6</name>
+    </instance>
+    <instance scriptid="val_19489_7460686_747">
+      <custrecord_pe_code_operation_type>97</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros 7</name>
+    </instance>
+    <instance scriptid="val_19490_7460686_168">
+      <custrecord_pe_code_operation_type>98</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Otros 8</name>
+    </instance>
+    <instance scriptid="val_19491_7460686_606">
+      <custrecord_pe_code_operation_type>08</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Premio</name>
+    </instance>
+    <instance scriptid="val_19492_7460686_734">
+      <custrecord_pe_code_operation_type>34</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Publicidad</name>
+    </instance>
+    <instance scriptid="val_19493_7460686_714">
+      <custrecord_pe_code_operation_type>12</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Retiro</name>
+    </instance>
+    <instance scriptid="val_19494_7460686_844">
+      <custrecord_pe_code_operation_type>36</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Retiro para Entrega a Trabajadores</name>
+    </instance>
+    <instance scriptid="val_19495_7460686_623">
+      <custrecord_pe_code_operation_type>37</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Retiro por Convenio Colectivo</name>
+    </instance>
+    <instance scriptid="val_19496_7460686_430">
+      <custrecord_pe_code_operation_type>38</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Retiro por Sustitución de Bien Siniestrado</name>
+    </instance>
+    <instance scriptid="val_19497_7460686_407">
+      <custrecord_pe_code_operation_type>16</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Saldo Inicial</name>
+    </instance>
+    <instance scriptid="val_19498_7460686_673">
+      <custrecord_pe_code_operation_type>10</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Salida a Producción</name>
+    </instance>
+    <instance scriptid="val_19499_7460686_651">
+      <custrecord_pe_code_operation_type>32</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Salida de Bienes en Custodia</name>
+    </instance>
+    <instance scriptid="val_19500_7460686_869">
+      <custrecord_pe_code_operation_type>30</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Salida de Bienes en Préstamo</name>
+    </instance>
+    <instance scriptid="val_19501_7460686_859">
+      <custrecord_pe_code_operation_type>25</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Salida por Devolución al Proveedor</name>
+    </instance>
+    <instance scriptid="val_19502_7460686_696">
+      <custrecord_pe_code_operation_type>23</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Salida por Identificación Erronea</name>
+    </instance>
+    <instance scriptid="val_19503_7460686_652">
+      <custrecord_pe_code_operation_type>27</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Salida por Servicio de Producción</name>
+    </instance>
+    <instance scriptid="val_19504_7460686_136">
+      <custrecord_pe_code_operation_type>11</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Salida por Transferencia entre Almacenes</name>
+    </instance>
+    <instance scriptid="val_19505_7460686_467">
+      <custrecord_pe_code_operation_type>01</custrecord_pe_code_operation_type>
+      <isinactive>F</isinactive>
+      <name>Venta Nacional</name>
+    </instance>
+  </instances>
+</customrecordtype>

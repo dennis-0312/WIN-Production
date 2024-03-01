@@ -1,0 +1,16 @@
+20558005379||F001|7/9/2023|5579.04|01|undefined|undefined|||
+20558005379||F001|7/9/2023|5579.04|01|undefined|undefined|||
+20558005379||nc01|11/9/2023|104|01|undefined|undefined|||
+20558005379||nc01|11/9/2023|104|01|undefined|undefined|||
+20558005379||nc01|11/9/2023|104|01|undefined|undefined|||
+20558005379|NC|F002|12/9/2023|2360|01|undefined|undefined|||
+20558005379|NC|F002|12/9/2023|2360|01|undefined|undefined|||
+20558005379|NC|F002|12/9/2023|2360|01|undefined|undefined|||
+20558005379|NC|F002|12/9/2023|2360|01|undefined|undefined|||
+20558005379|NC|F014|12/9/2023|118|01|undefined|undefined|||
+20558005379|NC|F014|12/9/2023|118|01|undefined|undefined|||
+20558005379|NC|F011|12/9/2023|2360|01|undefined|undefined|||
+20558005379|NC|F011|12/9/2023|2360|01|undefined|undefined|||
+20558005379|NC|F002|12/9/2023|2360|01|undefined|undefined|||
+20558005379|NC|F002|12/9/2023|2360|01|undefined|undefined|||
+20558005379|R001|00000007|13/9/2023|30|01|005||16/3/2023||

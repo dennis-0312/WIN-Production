@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_asb_tipo_actividad_l">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>ASB Lista Tipo Actividad</name>
+  <customvalues>
+    <customvalue scriptid="val_18496_8417837_569">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>FINANCIAMIENTO</value>
+    </customvalue>
+    <customvalue scriptid="val_18497_8417837_902">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>INVERSION</value>
+    </customvalue>
+    <customvalue scriptid="val_18498_8417837_713">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>OPERACION</value>
+    </customvalue>
+  </customvalues>
+</customlist>

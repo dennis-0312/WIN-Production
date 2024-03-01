@@ -1,0 +1,13 @@
+<centercategory scriptid="custcentercategory_162_6125688_sb1_320">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertab9]</centertab>
+  <label>PE Delivery Information</label>
+  <links>
+    <link>
+      <linklabel>PE Transportista</linklabel>
+      <linkobject>[scriptid=customrecord_pe_delivery_information]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

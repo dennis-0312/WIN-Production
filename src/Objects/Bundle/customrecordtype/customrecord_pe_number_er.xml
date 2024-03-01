@@ -1,0 +1,149 @@
+<customrecordtype scriptid="customrecord_pe_number_er">
+  <accesstype>NONENEEDED</accesstype>
+  <allowattachments>F</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>T</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>T</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <customsegment></customsegment>
+  <description></description>
+  <enabledle>T</enabledle>
+  <enablekeywords>T</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>T</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>T</includeinsearchmenu>
+  <includename>T</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>PE Number ER</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <instances>
+    <instance scriptid="val_39047_7460686_637">
+      <isinactive>F</isinactive>
+      <name>ER-001</name>
+    </instance>
+    <instance scriptid="val_39160_7460686_135">
+      <isinactive>F</isinactive>
+      <name>ER-002</name>
+    </instance>
+    <instance scriptid="val_39439_7460686_257">
+      <isinactive>F</isinactive>
+      <name>ER-0003</name>
+    </instance>
+    <instance scriptid="val_39497_7460686_921">
+      <isinactive>F</isinactive>
+      <name>E004</name>
+    </instance>
+    <instance scriptid="val_39702_7460686_548">
+      <isinactive>F</isinactive>
+      <name>ER-005</name>
+    </instance>
+    <instance scriptid="val_40058_7460686_797">
+      <isinactive>F</isinactive>
+      <name>ER-0006</name>
+    </instance>
+    <instance scriptid="val_40864_7460686_421">
+      <isinactive>F</isinactive>
+      <name>ER-0007</name>
+    </instance>
+    <instance scriptid="val_40884_7460686_600">
+      <isinactive>F</isinactive>
+      <name>ADA-3009</name>
+    </instance>
+    <instance scriptid="val_41051_7460686_192">
+      <isinactive>F</isinactive>
+      <name>JC-001</name>
+    </instance>
+    <instance scriptid="val_41052_7460686_938">
+      <isinactive>F</isinactive>
+      <name>emp-0001</name>
+    </instance>
+    <instance scriptid="val_35862_6125688_sb1_446">
+      <isinactive>F</isinactive>
+      <name>ACAM - 001</name>
+    </instance>
+    <instance scriptid="val_332857_6125688_sb1_897">
+      <isinactive>F</isinactive>
+      <name>CAJA-Contabilidad</name>
+    </instance>
+    <instance scriptid="val_332858_6125688_sb1_315">
+      <isinactive>F</isinactive>
+      <name>CAJA-Gerencia</name>
+    </instance>
+    <instance scriptid="val_332859_6125688_sb1_804">
+      <isinactive>F</isinactive>
+      <name>CAJA-Implementaciones</name>
+    </instance>
+    <instance scriptid="val_332860_6125688_sb1_606">
+      <isinactive>F</isinactive>
+      <name>CAJA-Legal</name>
+    </instance>
+    <instance scriptid="val_332861_6125688_sb1_952">
+      <isinactive>F</isinactive>
+      <name>CAJA- Regional - sur</name>
+    </instance>
+    <instance scriptid="val_332862_6125688_sb1_927">
+      <isinactive>F</isinactive>
+      <name>CAJA- On cloud</name>
+    </instance>
+    <instance scriptid="val_332863_6125688_sb1_122">
+      <isinactive>F</isinactive>
+      <name>CAJA- Regional - norte</name>
+    </instance>
+    <instance scriptid="val_332864_6125688_sb1_675">
+      <isinactive>F</isinactive>
+      <name>CAJA-Proyectos data  center</name>
+    </instance>
+    <instance scriptid="val_332865_6125688_sb1_458">
+      <isinactive>F</isinactive>
+      <name>CAJA-Infraestructura</name>
+    </instance>
+    <instance scriptid="val_332866_6125688_sb1_293">
+      <isinactive>F</isinactive>
+      <name>CAJA-TI</name>
+    </instance>
+    <instance scriptid="val_332867_6125688_sb1_227">
+      <isinactive>F</isinactive>
+      <name>CAJA-Comercial</name>
+    </instance>
+    <instance scriptid="val_332868_6125688_sb1_169">
+      <isinactive>F</isinactive>
+      <name>CAJA-Cobranza</name>
+    </instance>
+    <instance scriptid="val_568087_6125688_sb1_864">
+      <isinactive>F</isinactive>
+      <name>Bruno A. - 002</name>
+    </instance>
+    <instance scriptid="val_954432_6125688_sb1_979">
+      <isinactive>F</isinactive>
+      <name>ER 666</name>
+    </instance>
+    <instance scriptid="val_954434_6125688_sb1_810">
+      <isinactive>F</isinactive>
+      <name>ER 100</name>
+    </instance>
+  </instances>
+</customrecordtype>

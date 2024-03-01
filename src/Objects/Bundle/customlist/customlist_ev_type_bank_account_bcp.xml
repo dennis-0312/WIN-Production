@@ -1,0 +1,29 @@
+<customlist scriptid="customlist_ev_type_bank_account_bcp">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>EV Type Bank Account BCP</name>
+  <customvalues>
+    <customvalue scriptid="val_32271_6125688_sb1_424">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>C - Cuenta Corriente</value>
+    </customvalue>
+    <customvalue scriptid="val_32272_6125688_sb1_404">
+      <abbreviation>M</abbreviation>
+      <isinactive>F</isinactive>
+      <value>M - Cuenta Maestra</value>
+    </customvalue>
+    <customvalue scriptid="val_32273_6125688_sb1_567">
+      <abbreviation>A</abbreviation>
+      <isinactive>F</isinactive>
+      <value>A - Cuenta de Ahorro</value>
+    </customvalue>
+    <customvalue scriptid="val_32274_6125688_sb1_814">
+      <abbreviation>B</abbreviation>
+      <isinactive>F</isinactive>
+      <value>B - Cuenta Interbancaria</value>
+    </customvalue>
+  </customvalues>
+</customlist>

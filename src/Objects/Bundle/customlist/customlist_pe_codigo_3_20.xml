@@ -1,0 +1,114 @@
+<customlist scriptid="customlist_pe_codigo_3_20">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Codigos 3.20</name>
+  <customvalues>
+    <customvalue scriptid="val_44864_7460686_sb1_385">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ingresos de actividades ordinarias</value>
+    </customvalue>
+    <customvalue scriptid="val_44865_7460686_sb1_812">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Costo de Ventas</value>
+    </customvalue>
+    <customvalue scriptid="val_44866_7460686_sb1_623">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (PŽrdida) Bruta</value>
+    </customvalue>
+    <customvalue scriptid="val_44867_7460686_sb1_449">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Gastos de Ventas y Distribuci—n</value>
+    </customvalue>
+    <customvalue scriptid="val_44868_7460686_sb1_933">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Gastos de Administraci—n</value>
+    </customvalue>
+    <customvalue scriptid="val_44869_7460686_sb1_697">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (PŽrdida) de la baja en Activos Financieros medidos al Costo Amortizado</value>
+    </customvalue>
+    <customvalue scriptid="val_44870_7460686_sb1_222">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otros Ingresos Operativos</value>
+    </customvalue>
+    <customvalue scriptid="val_44871_7460686_sb1_954">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otros Gastos Operativos</value>
+    </customvalue>
+    <customvalue scriptid="val_44872_7460686_sb1_672">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otras ganancias (pŽrdidas)</value>
+    </customvalue>
+    <customvalue scriptid="val_44873_7460686_sb1_109">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (PŽrdida) por actividades de operaci—n</value>
+    </customvalue>
+    <customvalue scriptid="val_44874_7460686_sb1_522">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ingresos Financieros</value>
+    </customvalue>
+    <customvalue scriptid="val_44875_7460686_sb1_697">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Gastos Financieros</value>
+    </customvalue>
+    <customvalue scriptid="val_44876_7460686_sb1_775">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Diferencias de Cambio neto</value>
+    </customvalue>
+    <customvalue scriptid="val_44877_7460686_sb1_483">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otros ingresos (gastos) de las subsidiarias,negocios conjuntos y asociadas</value>
+    </customvalue>
+    <customvalue scriptid="val_44878_7460686_sb1_247">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancias (PŽrdidas) que surgen de la Diferencia entre el Valor Libro Anterior y el Valor Justo de Activos Financieros Reclasificados Medidos a Valor Razonable</value>
+    </customvalue>
+    <customvalue scriptid="val_44879_7460686_sb1_713">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Diferencia entre el importe en libros de los activos distribuidos y el importe en libros del dividendo a pagar</value>
+    </customvalue>
+    <customvalue scriptid="val_44880_7460686_sb1_972">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Resultado antes de Impuesto a las Ganancias</value>
+    </customvalue>
+    <customvalue scriptid="val_44881_7460686_sb1_949">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Gasto por Impuesto a las Ganancias</value>
+    </customvalue>
+    <customvalue scriptid="val_44882_7460686_sb1_791">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (PŽrdida) Neta de Operaciones  Continuadas</value>
+    </customvalue>
+    <customvalue scriptid="val_44883_7460686_sb1_792">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (pŽrdida)  procedente de operaciones discontinuadas, neta del impuesto a las ganancias</value>
+    </customvalue>
+    <customvalue scriptid="val_44884_7460686_sb1_315">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (PŽrdida) Neta del Ejercicio</value>
+    </customvalue>
+  </customvalues>
+</customlist>

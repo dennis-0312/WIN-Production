@@ -1,0 +1,114 @@
+<customlist scriptid="customlist_pe_codigo_3_24">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Codigos 3.24</name>
+  <customvalues>
+    <customvalue scriptid="val_44967_7460686_sb1_763">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (Perdida)  Neta del Ejercicio</value>
+    </customvalue>
+    <customvalue scriptid="val_44968_7460686_sb1_617">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Variacion Neta por Coberturas del Flujo de Efectivo</value>
+    </customvalue>
+    <customvalue scriptid="val_44969_7460686_sb1_944">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Coberturas de inversion neta de negocios en el extranjero</value>
+    </customvalue>
+    <customvalue scriptid="val_44970_7460686_sb1_464">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancias (Perdidas) de Inversiones en Instrumentos de Patrimonio al valor razonable</value>
+    </customvalue>
+    <customvalue scriptid="val_44971_7460686_sb1_800">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Diferencia de Cambio  por Conversion de Operaciones en el Extranjero</value>
+    </customvalue>
+    <customvalue scriptid="val_44972_7460686_sb1_116">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Variacion neta de activos no corrientes o grupos de activos mantenidos para la venta</value>
+    </customvalue>
+    <customvalue scriptid="val_44973_7460686_sb1_943">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Superövit de Revaluacion</value>
+    </customvalue>
+    <customvalue scriptid="val_44974_7460686_sb1_920">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (perdida) actuariales en plan de beneficios definidos</value>
+    </customvalue>
+    <customvalue scriptid="val_44975_7460686_sb1_616">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Cambios en el valor razonable de pasivos financieros atribuibles a cambios en el riesgo de credito del pasivo</value>
+    </customvalue>
+    <customvalue scriptid="val_44976_7460686_sb1_976">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otro Resultado Integral antes de Impuestos</value>
+    </customvalue>
+    <customvalue scriptid="val_44977_7460686_sb1_401">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Variacion Neta por Coberturas del Flujo de Efectivo</value>
+    </customvalue>
+    <customvalue scriptid="val_44978_7460686_sb1_238">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Coberturas de inversion neta de negocios en el extranjero</value>
+    </customvalue>
+    <customvalue scriptid="val_44979_7460686_sb1_294">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancias (Perdidas) de Inversiones en Instrumentos de Patrimonio al valor razonable</value>
+    </customvalue>
+    <customvalue scriptid="val_44980_7460686_sb1_327">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Diferencia de Cambio  por Conversion de Operaciones en el Extranjero</value>
+    </customvalue>
+    <customvalue scriptid="val_44981_7460686_sb1_723">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Variacion neta de activos no corrientes o grupos de activos mantenidos para la venta</value>
+    </customvalue>
+    <customvalue scriptid="val_44982_7460686_sb1_978">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Superövit de Revaluacion</value>
+    </customvalue>
+    <customvalue scriptid="val_44983_7460686_sb1_874">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (perdida) actuariales en plan de beneficios definidos</value>
+    </customvalue>
+    <customvalue scriptid="val_44984_7460686_sb1_310">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Cambios en el valor razonable de pasivos financieros atribuibles a cambios en el riesgo de credito del pasivo</value>
+    </customvalue>
+    <customvalue scriptid="val_44985_7460686_sb1_876">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Suma de Impuestos a las Ganancias Relacionados con Componentes de Otro Resultado Integral</value>
+    </customvalue>
+    <customvalue scriptid="val_44986_7460686_sb1_587">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otros Resultado Integral</value>
+    </customvalue>
+    <customvalue scriptid="val_44987_7460686_sb1_285">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Resultado  Integral Total del Ejercicio, neto del Impuesto a las Ganancias</value>
+    </customvalue>
+  </customvalues>
+</customlist>

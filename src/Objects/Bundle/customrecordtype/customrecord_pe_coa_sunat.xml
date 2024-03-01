@@ -1,0 +1,126 @@
+<customrecordtype scriptid="customrecord_pe_coa_sunat">
+  <accesstype>NONENEEDED</accesstype>
+  <allowattachments>F</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>T</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>T</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <customsegment></customsegment>
+  <description></description>
+  <enabledle>T</enabledle>
+  <enablekeywords>T</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>T</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>T</includeinsearchmenu>
+  <includename>T</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>PE COA Sunat</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_pe_code_coa_sunat">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>PE Code COA Sunat</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>T</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_19422_7460686_437">
+      <custrecord_pe_code_coa_sunat>99</custrecord_pe_code_coa_sunat>
+      <isinactive>F</isinactive>
+      <name>Otros</name>
+    </instance>
+    <instance scriptid="val_19423_7460686_529">
+      <custrecord_pe_code_coa_sunat>01</custrecord_pe_code_coa_sunat>
+      <isinactive>F</isinactive>
+      <name>Plan Contable General Empresarial</name>
+    </instance>
+    <instance scriptid="val_19424_7460686_139">
+      <custrecord_pe_code_coa_sunat>02</custrecord_pe_code_coa_sunat>
+      <isinactive>F</isinactive>
+      <name>Plan Contable General Revisado</name>
+    </instance>
+    <instance scriptid="val_19425_7460686_837">
+      <custrecord_pe_code_coa_sunat>07</custrecord_pe_code_coa_sunat>
+      <isinactive>F</isinactive>
+      <name>Plan Contable Gubernamental</name>
+    </instance>
+    <instance scriptid="val_19426_7460686_990">
+      <custrecord_pe_code_coa_sunat>06</custrecord_pe_code_coa_sunat>
+      <isinactive>F</isinactive>
+      <name>Plan De Cuentas De Las Administradoras Privadas De Fondos De Pensiones, Supervisadas Por SBS</name>
+    </instance>
+    <instance scriptid="val_19427_7460686_548">
+      <custrecord_pe_code_coa_sunat>05</custrecord_pe_code_coa_sunat>
+      <isinactive>F</isinactive>
+      <name>Plan De Cuentas Para Empresas Del Sistema Asegurador, Supervisadas Por SBS</name>
+    </instance>
+    <instance scriptid="val_19428_7460686_464">
+      <custrecord_pe_code_coa_sunat>03</custrecord_pe_code_coa_sunat>
+      <isinactive>F</isinactive>
+      <name>Plan De Cuentas Para Empresas Del Sistema Financiero, Supervisadas Por SBS</name>
+    </instance>
+    <instance scriptid="val_19429_7460686_918">
+      <custrecord_pe_code_coa_sunat>04</custrecord_pe_code_coa_sunat>
+      <isinactive>F</isinactive>
+      <name>Plan De Cuentas Para Entidades Prestadoras De Salud, Supervisadas Por SBS</name>
+    </instance>
+  </instances>
+</customrecordtype>

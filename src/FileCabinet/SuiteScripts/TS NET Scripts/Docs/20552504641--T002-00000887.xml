@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><DespatchAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"><ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="IdSingEfact"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>NXBfKLK5FU1hWuq3dZ+4dMw2eOs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>stgGhk/EH6n9RRU01xksVyX2vnWot6zTHaH3orrm8i+IHEBMQT7k59trE+T6onu27V3jk/H5MFCc/CRM28c5KmOJVi3YFrIqfYN2Xu5WpEldjfzv1EnR1PVc9aR4lB8XD3J5aM2j3flL4EaEI2DzY9goleYueaB0CnMIkjHdx+C77rEkON1ZWmUU1PrFnwfHjgPXNsxKx5aMagFSsH39fV4pcF4RbkVcsCIJ5PWWCsrjhh7Bub0+OjrvTtDRsX9jJHzegJHxgfO6iIiHtwpSXPlNq/rPnalW7Aymm7ptH6uy7e7GEGd0pOy5dzbpSRdwFu2kiFNFXc7om81YErpJxg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate><ds:X509IssuerSerial><ds:X509IssuerName>1.2.840.113549.1.9.1=#1612726d616e74696c6c614065666163742e7065,CN=EFACT S.A.C.,OU=RENAN MARTIN MANTILLA RAMIREZ - DNI 41710212,OU=Certificado corporativo de representación,OU=Validated by Peru Secure E Net SAC,OU=JEFE DE OPERACIONES,OU=RUC: 20551093035,O=EFACT S.A.C.,L=Lima,C=PE</ds:X509IssuerName><ds:X509SerialNumber>1137338135814772988886909172314798513226539601</ds:X509SerialNumber></ds:X509IssuerSerial></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+   <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+   <cbc:CustomizationID>2.0</cbc:CustomizationID>
+   <cbc:ID>T002-00000887</cbc:ID>
+   <cbc:IssueDate>2024-02-13</cbc:IssueDate>
+   <cbc:IssueTime>00:00:00</cbc:IssueTime>
+   <cbc:DespatchAdviceTypeCode>09</cbc:DespatchAdviceTypeCode>
+   <cbc:Note>VENTA A TERCEROS</cbc:Note>
+   <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+   <cac:Signature>
+      <cbc:ID>IDSignature</cbc:ID>
+      <cac:SignatoryParty>
+         <cac:PartyIdentification>
+            <cbc:ID>WIN EMPRESAS S.A.C.</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PartyName>
+            <cbc:Name>20552504641</cbc:Name>
+         </cac:PartyName>
+      </cac:SignatoryParty>
+      <cac:DigitalSignatureAttachment>
+         <cac:ExternalReference>
+            <cbc:URI>IDSignature</cbc:URI>
+         </cac:ExternalReference>
+      </cac:DigitalSignatureAttachment>
+   </cac:Signature>
+   <cac:DespatchSupplierParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeID="6">20552504641</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PostalAddress>
+            <cbc:ID>150130</cbc:ID>
+            <cbc:StreetName>AV. JOSE GALVEZ BARRENECHEA NRO. 645 URB. CORPAC</cbc:StreetName>
+            <cbc:CitySubdivisionName>URBANIZACION</cbc:CitySubdivisionName>
+            <cbc:CityName>Lima</cbc:CityName>
+            <cbc:CountrySubentity>Lima</cbc:CountrySubentity>
+            <cbc:District>San Borja</cbc:District>
+            <cac:Country>
+               <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:PostalAddress>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>20552504641</cbc:RegistrationName>
+         </cac:PartyLegalEntity>
+      </cac:Party>
+   </cac:DespatchSupplierParty>
+   <cac:DeliveryCustomerParty>
+      <cac:Party>
+         <cac:PartyIdentification>
+            <cbc:ID schemeID="6">20603291833</cbc:ID>
+         </cac:PartyIdentification>
+         <cac:PostalAddress>
+            <cbc:ID>150115</cbc:ID>
+            <cbc:StreetName>CAL.RODOLFO BELTRAN NRO. 144 URB. SANTA CATALINA (A LA ESPALDA DE EMPRESA CLARO) LIMA - LIMA - LA VICTORIA</cbc:StreetName>
+            <cbc:CitySubdivisionName>URBANIZACION</cbc:CitySubdivisionName>
+            <cbc:CityName>LIMA</cbc:CityName>
+            <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+            <cbc:District>LA VICTORIA</cbc:District>
+            <cac:Country>
+               <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:PostalAddress>
+         <cac:PartyLegalEntity>
+            <cbc:RegistrationName>EMFITEL S.A.C</cbc:RegistrationName>
+         </cac:PartyLegalEntity>
+         <cac:Contact>
+            <cbc:ElectronicMail>correo@efact.pe</cbc:ElectronicMail>
+         </cac:Contact>
+      </cac:Party>
+   </cac:DeliveryCustomerParty>
+   <cac:Shipment>
+      <cbc:ID>SUNAT_Envio</cbc:ID>
+      <cbc:HandlingCode>01</cbc:HandlingCode>
+      <cbc:HandlingInstructions>VENTA</cbc:HandlingInstructions>
+      <cbc:GrossWeightMeasure unitCode="TNE">1</cbc:GrossWeightMeasure>
+      <cac:ShipmentStage>
+         <cbc:TransportModeCode>01</cbc:TransportModeCode>
+         <cac:TransitPeriod>
+            <cbc:StartDate>2024-02-13</cbc:StartDate>
+         </cac:TransitPeriod>
+         <cac:CarrierParty>
+            <cac:PartyIdentification>
+               <cbc:ID schemeID="6">20553673535</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyLegalEntity>
+               <cbc:RegistrationName>FIBER SOLUTIONS S.A.C.</cbc:RegistrationName>
+               <cbc:CompanyID/>
+            </cac:PartyLegalEntity>
+            <cac:AgentParty>
+               <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="06"/>
+               </cac:PartyLegalEntity>
+            </cac:AgentParty>
+         </cac:CarrierParty>
+      </cac:ShipmentStage>
+      <cac:Delivery>
+         <cac:DeliveryAddress>
+            <cbc:ID>150115</cbc:ID>
+            <cbc:CitySubdivisionName>URBANIZACION</cbc:CitySubdivisionName>
+            <cbc:CityName>Lima</cbc:CityName>
+            <cbc:CountrySubentity> Lima</cbc:CountrySubentity>
+            <cbc:District> Surquillo</cbc:District>
+            <cac:AddressLine>
+               <cbc:Line>C-20603291833&#13;
+CAL.RODOLFO BELTRAN NRO. 144 URB. SANTA CATALINA (A LA ESPALDA DE EMPRESA CLARO) LIMA - LIMA - LA VICTORIA&#13;
+LIMA LIMA LA VICTORIA&#13;
+Perú&#13;
+150115</cbc:Line>
+            </cac:AddressLine>
+            <cac:Country>
+               <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+            </cac:Country>
+         </cac:DeliveryAddress>
+         <cac:Despatch>
+            <cac:DespatchAddress>
+               <cbc:ID>150115</cbc:ID>
+               <cbc:CitySubdivisionName>URBANIZACION</cbc:CitySubdivisionName>
+               <cbc:CityName>Lima</cbc:CityName>
+               <cbc:CountrySubentity> Lima</cbc:CountrySubentity>
+               <cbc:District> Lima</cbc:District>
+               <cac:AddressLine>
+                  <cbc:Line>Calle los Negocios&#13;
+Surquillo&#13;
+Lima &#13;
+Perú</cbc:Line>
+               </cac:AddressLine>
+               <cac:Country>
+                  <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+               </cac:Country>
+            </cac:DespatchAddress>
+            <cac:DespatchParty>
+               <cac:AgentParty>
+                  <cac:PartyLegalEntity>
+                     <cbc:CompanyID schemeID="06">NUMAUTORIREMIT123</cbc:CompanyID>
+                  </cac:PartyLegalEntity>
+               </cac:AgentParty>
+            </cac:DespatchParty>
+         </cac:Despatch>
+      </cac:Delivery>
+   </cac:Shipment>
+   <cac:DespatchLine>
+      <cbc:ID>1</cbc:ID>
+      <cbc:Note>UNIDAD</cbc:Note>
+      <cbc:DeliveredQuantity unitCode="NIU">50</cbc:DeliveredQuantity>
+      <cac:OrderLineReference>
+         <cbc:LineID>1</cbc:LineID>
+      </cac:OrderLineReference>
+      <cac:Item>
+         <cbc:Description>FIBRA OPTICA ADSS 96H SPAN 100 (MDPE) OFC-96G.652D-FRP / ANTIROEDOR</cbc:Description>
+         <cac:SellersItemIdentification>
+            <cbc:ID>10020402000018</cbc:ID>
+         </cac:SellersItemIdentification>
+      </cac:Item>
+   </cac:DespatchLine>
+</DespatchAdvice>

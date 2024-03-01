@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_ev_validate_account_bcp">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>EV Validate Account BCP</name>
+  <customvalues>
+    <customvalue scriptid="val_32278_6125688_sb1_350">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>S - Si</value>
+    </customvalue>
+    <customvalue scriptid="val_32279_6125688_sb1_347">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>N - No</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,14 +1,19 @@
 <deploy>
-    <configuration>
+    <!-- <configuration>
         <path>~/AccountConfiguration/*</path>
-    </configuration>
-    <files>
+    </configuration> -->
+    <!-- <files>
         <path>~/FileCabinet/*</path>
-    </files>
+    </files> -->
     <objects>
-        <path>~/Objects/*</path>
+        <!-- <path>~/Objects/*</path> -->
+        <!-- <path>~/Objects/role/*</path> -->
+        <!-- <path>~/Objects/Bundle/*</path> -->
+        <!-- <path>~/Objects/custtmpl/*</path> -->
+        <!-- <path>~/Objects/others/pendingrecordsdata/customscript_pe_ue_consig.xml</path> -->
+        <!-- <path>~/Objects/test/*</path> -->
     </objects>
-    <translationimports>
+    <!-- <translationimports>
         <path>~/Translations/*</path>
-    </translationimports>
+    </translationimports> -->
 </deploy>

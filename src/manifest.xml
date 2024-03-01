@@ -1,4 +1,1046 @@
 <manifest projecttype="ACCOUNTCUSTOMIZATION">
   <projectname>WIN-Production</projectname>
   <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">CREATESUITEBUNDLES</feature>
+      <feature required="true">SUBSIDIARIES</feature>
+      <feature required="true">WEBSERVICES</feature>
+      <feature required="true">MATRIXITEMS</feature>
+      <feature required="true">ACCOUNTING</feature>
+      <feature required="true">CUSTOMSEGMENTS</feature>
+      <feature required="true">EXTREMELIST</feature>
+      <feature required="true">MAILMERGE</feature>
+      <feature required="true">MULTILANGUAGE</feature>
+      <feature required="true">ADVANCEDJOBS</feature>
+      <feature required="true">WEBSITE</feature>
+      <feature required="true">SUITESIGNON</feature>
+      <feature required="true">JOBS</feature>
+      <feature required="true">CRM</feature>
+      <feature required="true">OPPORTUNITIES</feature>
+      <feature required="true">INVENTORY</feature>
+      <feature required="true">ADVRECEIVING</feature>
+      <feature required="true">PERIODENDJOURNALENTRIES</feature>
+      <feature required="true">MULTILOCINVT</feature>
+      <feature required="true">PAYABLES</feature>
+      <feature required="true">RECEIVABLES</feature>
+      <feature required="true">CUSTOMTRANSACTIONS</feature>
+      <feature required="true">EXPREPORTS</feature>
+      <feature required="true">MERCHANDISEHIERARCHY</feature>
+      <feature required="true">TIMETRACKING</feature>
+      <feature required="true">PURCHASEREQS</feature>
+      <feature required="true">WORKFLOW</feature>
+      <feature required="true">SALESORDERS</feature>
+      <feature required="true">LOCATIONS</feature>
+      <feature required="true">ADVANCEDPRINTING</feature>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="true">CUSTOMGLLINES</feature>
+    </features>
+    <objects>
+      <object>customrecord_ei_sending_method</object>
+      <object>customrecord_psg_ei_sending_batch</object>
+      <object>customrecord_psg_ei_template</object>
+      <object>customrecord_psg_ei_sub_prefs_data</object>
+      <object>customrecord_psg_ei_template_validator</object>
+      <object>customrecord_psg_ei_audit_trail</object>
+      <object>customrecord_psg_ei_inbound_edoc</object>
+      <object>customrecord_psg_ei_conversion_batch</object>
+      <object>customrecord_psg_ei_standards</object>
+      <object>customrecord_psg_ei_validation_plugin</object>
+      <object>customrecord_15906_ep_logs</object>
+      <object>customrecord_ecsl_audit_trail_hdr</object>
+      <object>customrecord_ei_automation_pref</object>
+      <object>customrecord_psg_ei_email_recipient</object>
+      <object>customtransaction_fam_transfer_jrn</object>
+      <object>customtransaction_fam_leaseproposal</object>
+      <object>customrecord_4601_witaxtype</object>
+      <object>customrecord_4601_groupedwitaxcode</object>
+      <object>customrecord_4601_witaxsetup</object>
+      <object>customrecord_ecsl_audit_trail_dtl</object>
+      <object>customrecord_ph4014_wtax_type_d</object>
+      <object>customrecord_ph4014_wtax_jrnl_type</object>
+      <object>customrecord_ph4014_wtax_type_kind</object>
+      <object>customrecord_tax_template</object>
+      <object>customtransaction_fam_depr_jrn</object>
+      <object>customtransaction_fam_revaluation_jrn</object>
+      <object>customrecord_2663_entity_bank_details</object>
+      <object>customrecord_2663_bank_details</object>
+      <object>customrecord_2663_bill_eft_details</object>
+      <object>customrecord_ncfar_asset</object>
+      <object>customrecord_fam_tpaf_mapping</object>
+      <object>customrecord_repairmaintcategory</object>
+      <object>customrecord_ncfar_systemsetup</object>
+      <object>customrecord_ncfar_transferaccounts</object>
+      <object>customrecord_fam_assetresetdata</object>
+      <object>customrecord_ncfar_altdeprdef</object>
+      <object>customrecord_ncfar_altdepr_proposal</object>
+      <object>customrecord_ncfar_altdepreciation</object>
+      <object>customrecord_fam_specialdepreciation</object>
+      <object>customrecord_4601_witaxcode</object>
+      <object>custitem_4601_defaultwitaxcode</object>
+      <object>customrecord_edp_price_update_sys_notes.custrecord_edp_system_notes_item</object>
+      <object>custitem_un_number</object>
+      <object>custitem_commodity_code</object>
+      <object>custitem_type_of_goods</object>
+      <object>custitem_itr_supplementary_unit</object>
+      <object>customrecord_scm_customerpartnumber.custrecord_scm_cpn_item</object>
+      <object>customrecord_scm_lc_mapping.custrecord_scm_lc_mapping_item</object>
+      <object>customrecord_scm_item_substitute.custrecord_scm_itemsub_parent</object>
+      <object>custentity_2663_email_address_notif</object>
+      <object>custentity_dic</object>
+      <object>custentity_ico</object>
+      <object>custentity_4599_sg_uen</object>
+      <object>custentity_my_brn</object>
+      <object>custentity_sii_id_type</object>
+      <object>custentity_sii_id</object>
+      <object>custentity_tax_reg_no</object>
+      <object>custentity_4601_defaultwitaxcode</object>
+      <object>custentity_psg_ei_entity_edoc_standard</object>
+      <object>custentity_psg_ei_auto_select_temp_sm</object>
+      <object>custitem_code_of_supply</object>
+      <object>custentity_edoc_gen_trans_pdf</object>
+      <object>customrecord_psg_ei_email_recipient.custrecord_psg_ei_email_recipient_cust</object>
+      <object>custentity_2663_direct_debit</object>
+      <object>customrecord_2663_entity_bank_details.custrecord_2663_parent_customer</object>
+      <object>custsublist_15906_dd_bd_logs</object>
+      <object>custentity_2663_customer_refund</object>
+      <object>custsublist_15906_cus_eft_bd_logs</object>
+      <object>custentity_2663_payment_method</object>
+      <object>custsublist_15906_eft_bd_logs</object>
+      <object>custentity_edoc_sender_domain</object>
+      <object>custentity_edoc_use_sender_list</object>
+      <object>custentity_edoc_ws_id</object>
+      <object>custentity_edoc_ws_sender</object>
+      <object>custentity_11724_pay_bank_fees</object>
+      <object>customrecord_2663_entity_bank_details.custrecord_2663_parent_vendor</object>
+      <object>customrecord_2663_entity_bank_details.custrecord_2663_parent_cust_ref</object>
+      <object>customrecord_2663_entity_bank_details.custrecord_2663_parent_employee</object>
+      <object>custbody_4599_sg_import_permit_num</object>
+      <object>custbody_document_date</object>
+      <object>custbody_fam_jrn_reversal_date</object>
+      <object>custbody_fam_jrn_reversal_no</object>
+      <object>custbody_fam_lp_company</object>
+      <object>custbody_fam_lp_contractnum</object>
+      <object>customtransaction_fam_disp_jrn</object>
+      <object>customrole_win_asistente_de_almacen</object>
+      <object>customrole_win_coordinador_de_almacen</object>
+      <object>customtransaction_fam_specialdepr_jrn</object>
+      <object>customrole_win_jefe_de_almacen</object>
+      <object>customrole_win_jefe_de_cobranza_empresa</object>
+      <object>customrecord_psg_ei_request</object>
+      <object>customrole_win_jefe_de_facturacion</object>
+      <object>customrole_wineasistentedecontabilidad</object>
+      <object>customrole1206</object>
+      <object>customrecord_2663_file_admin</object>
+      <object>customrecord_filing_authorization</object>
+      <object>customrecord_tax_return_setup_item</object>
+      <object>customrecord_filing_config</object>
+      <object>customrecord_4601_witaxconfiguration</object>
+      <object>customrecord_fam_leasecontract</object>
+      <object>customrecord_fam_recent_diagnosis</object>
+      <object>customrecord_ncfar_expenseincome</object>
+      <object>customrecord_ncfar_deprhistory</object>
+      <object>customrecord_ncfar_deprmethod</object>
+      <object>customrecord_ncfar_altmethods</object>
+      <object>customrecord_fam_process</object>
+      <object>customrecord_ncfar_assetproposal</object>
+      <object>customrecord_repairmaintsubcategory</object>
+      <object>customrecord_repairmaintsubcategoryb</object>
+      <object>customrecord_fam_papersize</object>
+      <object>customrecord_ncfar_assettype</object>
+      <object>customrecord_ncfar_assetusage</object>
+      <object>customrecord_fam_assetvalues</object>
+      <object>customrecord_assetlifetimes</object>
+      <object>customrecord_2663_payment_file_format</object>
+      <object>customrecord_2663_bill_eft_payment</object>
+      <object>customrecord_bg_procinstance</object>
+      <object>customrecord_bg_queueinstance</object>
+      <object>customrecord_2663_batch</object>
+      <object>customrecord_filing_template</object>
+      <object>customrecord_fam_leasepayments</object>
+      <object>customrecord_vatonline_submittedperiod</object>
+      <object>customrecord_ep_preference</object>
+      <object>customrecord_online_filing</object>
+      <object>customrecord_bg_proclog</object>
+      <object>customrecord_bg_summaryrecord</object>
+      <object>customrole1116</object>
+      <object>customrecord_tax_report_map</object>
+      <object>customrecord_tax_report_map_details</object>
+      <object>customrecord_tax_report_map_option</object>
+      <object>customrole1129</object>
+      <object>customrecord_4599_sys_note</object>
+      <object>customrecord_2663_payment_aggregation</object>
+      <object>customrecord_scm_lc_mapping</object>
+      <object>customrecord_scm_dps_userdisplay</object>
+      <object>customrecord_2663_payment_schedule</object>
+      <object>customrecord_scm_printreportlog</object>
+      <object>customrecord_psg_ei_email_recipient_vend</object>
+      <object>customrecord_psg_ei_email_custom</object>
+      <object>customrecord_scm_lc_profile_detail</object>
+      <object>customrecord_scm_customerpartnumber</object>
+      <object>customrecord_scm_lc_profile</object>
+      <object>customrecord_scm_preferences</object>
+      <object>customrecord_scm_item_substitute</object>
+      <object>customrecord_scm_dps_taskview</object>
+      <object>customrole1140</object>
+      <object>customrole1158</object>
+      <object>customrole1165</object>
+      <object>customrole1178</object>
+      <object>customrole1180</object>
+      <object>customrole1185</object>
+      <object>customrole1193</object>
+      <object>customrole1194</object>
+      <object>customrole1200</object>
+      <object>customrole1203</object>
+      <object>customrole1211</object>
+      <object>customrole1212</object>
+      <object>customrole1214</object>
+      <object>customrole1215</object>
+      <object>customrole1216</object>
+      <object>customrole1217</object>
+      <object>customrole1218</object>
+      <object>customrole1251</object>
+      <object>customrole1252</object>
+      <object>customrolewin_adquisiciones_ii</object>
+      <object>customrole1137</object>
+
+      <object>custbody_my_import_declaration_num</object>
+      <object>custbody_fam_lp_assetdesc</object>
+      <object>custbody_fam_lp_startdate</object>
+      <object>custbody_fam_lp_financelease</object>
+      <object>custbody_fam_lp_assetprop</object>
+      <object>custbody_fam_lp_asset</object>
+      <object>custbody_fam_lp_totalleasepayment</object>
+      <object>custbody_fam_lp_totalnpv</object>
+      <object>custbody_fam_lp_totalleaseliab</object>
+      <object>custbody_fam_lp_totalinterest</object>
+      <object>custbody_fam_lp_totalprincipal</object>
+      <object>custbody_fam_lp_rentalfreq</object>
+      <object>custbody_fam_lp_term</object>
+      <object>custbody_fam_lp_annualrate</object>
+      <object>custbody_fam_lp_enddate</object>
+      <object>custbody_fam_lp_journal</object>
+      <object>custbody_11724_pay_bank_fees</object>
+      <object>custbody_15699_exclude_from_ep_process</object>
+      <object>custbody_2663_reference_num</object>
+      <object>custbody_9997_is_for_ep_eft</object>
+      <object>cseg_paactivitycode</object>
+      <object>custcol_nondeductible_account</object>
+      <object>custcol_statistical_value</object>
+      <object>custcol_5892_eutriangulation</object>
+      <object>custcol_expense_code_of_supply</object>
+      <object>custcol_statistical_procedure_sale</object>
+      <object>custcol_statistical_procedure_purc</object>
+      <object>custcol_emirate</object>
+      <object>custcol_counterparty_vat</object>
+      <object>custcol_sii_annual_prorate</object>
+      <object>custcol_sii_service_date</object>
+      <object>custcol_sii_exempt_line_details</object>
+      <object>custcol_establishment_code</object>
+      <object>custcol_4601_witaxbamt_exp</object>
+      <object>custcol_4601_witaxapplies</object>
+      <object>custcol_4601_witaxamt_exp</object>
+      <object>custcol_4601_witaxline_exp</object>
+      <object>custcol_4601_witaxcode_exp</object>
+      <object>custcol_4601_witaxrate_exp</object>
+      <object>custcol_far_trn_relatedasset</object>
+      <object>custcol_4601_witaxrate</object>
+      <object>custcol_4601_witaxamount</object>
+      <object>custcol_4601_witaxcode</object>
+      <object>custcol_4601_witaxbaseamount</object>
+      <object>custcol_2663_eft_file_format</object>
+      <object>custcol_9997_dd_file_format</object>
+      <object>custcol_9572_eft_entitybank_sub</object>
+      <object>custcol_9572_eft_entitybank_format</object>
+      <object>custcol_9572_dd_entitybank_format</object>
+      <object>custcol_9572_dd_entitybank_sub</object>
+      <object>custcol_9572_dd_file_format</object>
+      <object>custcol_scm_costcat_profile</object>
+      <object>custcol_scm_lc_autocalc</object>
+      <object>custcol_scm_customerpartnumber</object>
+      <object>custcol_scm_itemsub_link</object>
+      <object>custcol_scm_itemsub_original_item</object>
+      <object>custbody_pe_number_er</object>
+      <object>custbody_pe_report_type</object>
+      <object>custbody_fam_specdeprjrn_rate</object>
+      <object>custbody_fam_specdeprjrn_limit</object>
+      <object>custbody_fam_specdeprjrn_term1</object>
+      <object>custbody_fam_specdeprjrn_term2</object>
+      <object>custbody_fam_specdeprjrn_shortage</object>
+      <object>custbody1</object>
+      <object>custtab_16_3776644_208</object>
+      <object>custbody_adjustment_journal</object>
+      <object>custbody_transaction_region</object>
+      <object>custbody_nondeductible_ref_tran</object>
+      <object>custbody_nexus_notc</object>
+      <object>custbody_delivery_terms</object>
+      <object>custbody_notc</object>
+      <object>custbody_4110_customregnum</object>
+      <object>custbody_nondeductible_ref_genjrnl</object>
+      <object>custbody_nondeductible_processed</object>
+      <object>custbody_mode_of_transport</object>
+      <object>custbody_regime_code_of_supply</object>
+      <object>custbody_cash_register</object>
+      <object>custbody_date_of_taxable_supply</object>
+      <object>custbody_itr_doc_number</object>
+      <object>custbody_refno_originvoice</object>
+      <object>custbody_counterparty_vat</object>
+      <object>custtab_31_5435884_159</object>
+      <object>custbody_fam_lp_rightofuse</object>
+      <object>custbody_fam_lp_leaseliability</object>
+      <object>custbody_fam_lp_intexpense</object>
+      <object>custbody_fam_lp_gainonmod</object>
+      <object>custtab_8_3838944_670</object>
+      <object>custbody_establishment_code</object>
+      <object>custtab_9_4533432_230</object>
+      <object>custbody_11187_pref_entity_bank</object>
+      <object>custbody_11724_bank_fee</object>
+      <object>custbody_15529_vendor_entity_bank</object>
+      <object>custbody_15529_emp_entity_bank</object>
+      <object>custbody_9997_pfa_record</object>
+      <object>custbody_10184_customer_entity_bank</object>
+      <object>custbody_15889_cust_refund_entity_bank</object>
+      <object>custbody_psg_ei_template</object>
+      <object>custbody_psg_ei_status</object>
+      <object>custbody_psg_ei_template_inlinehelp</object>
+      <object>custbody_psg_ei_sending_method</object>
+      <object>custbody_psg_ei_inbound_edocument</object>
+      <object>custbody_psg_ei_pdf</object>
+      <object>custbody_edoc_gen_trans_pdf</object>
+      <object>custbody_edoc_generated_pdf</object>
+      <object>custbody_psg_ei_generated_edoc</object>
+      <object>custbody_psg_ei_certified_edoc</object>
+      <object>custbody_psg_ei_digitalsignature_label</object>
+      <object>custbody_psg_ei_edoc_recipient</object>
+      <object>custbody_psg_ei_qr_code</object>
+      <object>custbody_ei_network_id</object>
+      <object>custbody_ei_network_name</object>
+      <object>custbody_ei_network_status</object>
+      <object>custbody_ei_network_updated_date_time</object>
+      <object>custtab_2_3838944_108</object>
+      <object>custbody_sii_spcl_scheme_code_sales</object>
+      <object>custbody_sii_spcl_scheme_code_purchase</object>
+      <object>custbody_sii_property_location</object>
+      <object>custbody_sii_land_register</object>
+      <object>custbody_sii_is_third_party</object>
+      <object>custbody_sii_exempt_details</object>
+      <object>custbody_sii_intra_txn_type</object>
+      <object>custbody_sii_orig_invoice</object>
+      <object>custbody_sii_registration_status</object>
+      <object>custbody_sii_registration_code</object>
+      <object>custbody_sii_correction_type</object>
+      <object>custbody_sii_ref_no</object>
+      <object>custbody_sii_orig_bill</object>
+      <object>custbody_sii_received_inv_type</object>
+      <object>custbody_sii_operation_date</object>
+      <object>custbody_sii_invoice_date</object>
+      <object>custbody_sii_registration_msg</object>
+      <object>custbody_sii_issued_inv_type</object>
+      <object>custbody_sii_accounting_date</object>
+      <object>custbody_sii_external_reference</object>
+      <object>custbody_sii_article_72_73</object>
+      <object>custbody_sii_not_reported_in_time</object>
+      <object>custbody_sii_article_61d</object>
+      <object>custbody_doc_num_summ_invoice</object>
+      <object>customrole1178</object>
+      <object>customrolewin_adquisiciones_ii</object>
+      <object>customrole1200</object>
+      <object>customrole1193</object>
+      <object>customrole1129</object>
+      <object>customrole1211</object>
+      <object>customrole1137</object>
+      <object>customrole_wn_integration_rol</object>
+      <object>customrole_win_asistente_de_almacen</object>
+      <object>customrole_wineasistentedecontabilidad</object>
+      <object>customrole1116</object>
+      <object>customrole1215</object>
+      <object>customrole1140</object>
+      <object>customrole1194</object>
+      <object>customrole_win_coordinador_de_almacen</object>
+      <object>customrole1218</object>
+      <object>customrole1180</object>
+      <object>customrole1217</object>
+      <object>customrole1165</object>
+      <object>customrole_win_jefe_de_almacen</object>
+      <object>customrole1185</object>
+      <object>customrole1203</object>
+      <object>customrole1206</object>
+      <object>customrole1251</object>
+      <object>customrole1216</object>
+      <object>customrole1252</object>
+      <object>customrole1212</object>
+      <object>customrole_ns_taf_cfo</object>
+      <object>customrole_wtax_cfo</object>
+      <object>customrole_ns_taf_accountant</object>
+      <object>customrole_wtax_accountant</object>
+      <object>customrole_wtax_accountat_rvwr</object>
+      <object>customrole1002_2</object>
+      <object>customrole_ep_approver</object>
+      <object>customrole_ep_configurator</object>
+      <object>customrole_ep_processor</object>
+      <object>customrole1000</object>
+      <object>customrole1004</object>
+      <object>customrole1002</object>
+      <object>customrole_wtax_bookkeeper</object>
+      <object>customrole1001</object>
+      <object>customrole_ncfar</object>
+      <object>custbody_9997_is_for_ep_dd</object>
+      <object>standardemailtemplate</object>
+      <object>customrecord_pe_fiscal_document_type</object>
+      <object>customrecord_ncfar_asset.custrecord_assetcaretaker</object>
+
+
+      <object>customrecord_pe_tipo_de_diario.custrecord_nombre</object>
+      <object>customrecord_pe_tipo_de_diario</object>
+
+
+      <object>customrecord_pe_serie.custrecord_para_anulacin</object>
+      <object>customrecord_pe_serie.custrecord_pe_digitos</object>
+      <object>customrecord_pe_serie.custrecord_pe_final</object>
+      <object>customrecord_pe_serie.custrecord_pe_inicio</object>
+      <object>customrecord_pe_serie.custrecord_pe_location</object>
+      <object>customrecord_pe_serie.custrecord_pe_serie_impresion</object>
+      <object>customrecord_pe_serie.custrecord_pe_subsidiaria</object>
+      <object>customrecord_pe_serie.custrecord_pe_tipo_documento_aplicado</object>
+      <object>customrecord_pe_serie.custrecord_pe_tipo_documento_serie</object>
+      <object>customrecord_pe_serie</object>
+
+      <object>customlist_ncfar_assetstatus</object>
+      <object>customrecord_ncfar_asset.custrecord_assetaccmethod</object>
+      <object>customrecord_ncfar_asset.custrecord_assetclass</object>
+      <object>customrecord_ncfar_asset.custrecord_assetcost</object>
+      <object>customrecord_ncfar_asset.custrecord_assetcurrentcost</object>
+      <object>customrecord_ncfar_asset.custrecord_assetdepartment</object>
+      <object>customrecord_ncfar_asset.custrecord_assetdescr</object>
+      <object>customrecord_ncfar_asset.custrecord_assetinclreports</object>
+      <object>customrecord_ncfar_asset.custrecord_assetlifetime</object>
+      <object>customrecord_ncfar_asset.custrecord_assetlocation</object>
+      <object>customrecord_ncfar_asset.custrecord_assetresidualperc</object>
+      <object>customrecord_ncfar_asset.custrecord_assetserialno</object>
+      <object>customrecord_ncfar_asset.custrecord_assetstatus</object>
+      <object>customrecord_ncfar_asset.custrecord_assetsubsidiary</object>
+      <object>customrecord_ncfar_asset.custrecord_assettype</object>
+      <object>customrecord_ncfar_asset.custrecord_componentof</object>
+      <object>customrecord_ncfar_asset.custrecord_ncfar_quantity</object>
+      <object>customlist_ncfar_depractive</object>
+      <object>customlist_ncfar_deprperiod</object>
+      <object>customlist_ncfar_deprrules</object>
+      <object>customlist_ncfar_revisionrules</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypeassetacc</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypedepracc</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypedepractive</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypedeprchargeacc</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypedeprperiod</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypedeprrules</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypedescription</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypedisposalacc</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypelifetime</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypeoperatinglease</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettyperesidperc</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettyperevisionrules</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypewritedownacc</object>
+      <object>customrecord_ncfar_assettype.custrecord_assettypewriteoffacc</object>
+      <object>customlist_ncfar_assetstatus</object>
+      <object>customrecord_ncfar_asset.custrecord_assetaccmethod</object>
+      <object>customrecord_ncfar_asset.custrecord_assetclass</object>
+      <object>customrecord_ncfar_asset.custrecord_assetcost</object>
+      <object>customrecord_ncfar_asset.custrecord_assetcurrentcost</object>
+      <object>customrecord_ncfar_asset.custrecord_assetdepartment</object>
+      <object>customrecord_ncfar_asset.custrecord_assetdescr</object>
+      <object>customrecord_ncfar_asset.custrecord_assetlifetime</object>
+      <object>customrecord_ncfar_asset.custrecord_assetlocation</object>
+      <object>customrecord_ncfar_asset.custrecord_assetresidualperc</object>
+      <object>customrecord_ncfar_asset.custrecord_assetserialno</object>
+      <object>customrecord_ncfar_asset.custrecord_assetstatus</object>
+      <object>customrecord_ncfar_asset.custrecord_assetsubsidiary</object>
+      <object>customrecord_ncfar_asset.custrecord_assettype</object>
+      <object>customrecord_ncfar_asset.custrecord_componentof</object>
+      <object>customrecord_ncfar_asset.custrecord_ncfar_quantity</object>
+      <object>custentity_pe_document_number</object>
+      <object>custentity_pe_document_type</object>
+      <object>customrecord_pe_document_type</object>
+      <object>custentity_pe_is_agent_perception</object>
+      <object>custentity_pe_is_good_contributor</object>
+      <object>custentity_pe_is_wh_agent</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_currency</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_dd_template</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_eft_file_cabinet_id</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_eft_template</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_file_name_prefix</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_gl_bank_account</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_legal_name</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_pp_template</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_print_company_name</object>
+      <object>customrecord_2663_bank_details.custrecord_2663_subsidiary</object>
+      <object>customlist_ncfar_assetstatus</object>
+      <object>customrecord_ncfar_asset.custrecord_assetaccmethod</object>
+      <object>customrecord_ncfar_asset.custrecord_assetclass</object>
+      <object>customrecord_ncfar_asset.custrecord_assetcost</object>
+      <object>customrecord_ncfar_asset.custrecord_assetcurrentcost</object>
+      <object>customrecord_ncfar_asset.custrecord_assetdepartment</object>
+      <object>customrecord_ncfar_asset.custrecord_assetdescr</object>
+      <object>customrecord_ncfar_asset.custrecord_assetlifetime</object>
+      <object>customrecord_ncfar_asset.custrecord_assetlocation</object>
+      <object>customrecord_ncfar_asset.custrecord_assetpurchasedate</object>
+      <object>customrecord_ncfar_asset.custrecord_assetpurchaseorder</object>
+      <object>customrecord_ncfar_asset.custrecord_assetresidualperc</object>
+      <object>customrecord_ncfar_asset.custrecord_assetserialno</object>
+      <object>customrecord_ncfar_asset.custrecord_assetsourcetrn</object>
+      <object>customrecord_ncfar_asset.custrecord_assetstatus</object>
+      <object>customrecord_ncfar_asset.custrecord_assetsubsidiary</object>
+      <object>customrecord_ncfar_asset.custrecord_assettype</object>
+      <object>customrecord_ncfar_asset.custrecord_ncfar_quantity</object>
+      <object>customrecord_pe_serie.custrecord_para_anulacin</object>
+      <object>customrecord_pe_serie.custrecord_pe_digitos</object>
+      <object>customrecord_pe_serie.custrecord_pe_final</object>
+      <object>customrecord_pe_serie.custrecord_pe_inicio</object>
+      <object>customrecord_pe_serie.custrecord_pe_location</object>
+      <object>customrecord_pe_serie.custrecord_pe_serie_impresion</object>
+      <object>customrecord_pe_serie.custrecord_pe_subsidiaria</object>
+      <object>customrecord_pe_serie.custrecord_pe_tipo_documento_aplicado</object>
+      <object>customrecord_pe_serie.custrecord_pe_tipo_documento_serie</object>
+      <object>customrecord_pe_serie</object>
+      <object>customlist_2663_payment_type</object>
+      <object>customlist_2663_process_status</object>
+      <object>customlist_ep_payment_priority</object>
+      <object>customrecord_2663_file_admin.custrecord_2663_bank_account</object>
+      <object>customrecord_2663_file_admin.custrecord_2663_file_processed</object>
+      <object>customrecord_2663_file_admin.custrecord_2663_file_ref</object>
+      <object>customrecord_2663_file_admin.custrecord_2663_payment_subsidiary</object>
+      <object>customrecord_2663_file_admin.custrecord_2663_payment_type</object>
+      <object>customrecord_2663_file_admin.custrecord_ep_priority</object>
+      <object>customrecord_pe_motivo.custrecord_pe_codigo_motivo</object>
+      <object>customrecord_pe_motivo.custrecord_pe_tipo_documento</object>
+      <object>customrecord_pe_motivo</object>
+      <object>customrecord_pe_concept_detraction</object>
+      <object>customrecord_pe_dua_code</object>
+      <object>customrecord_pe_fiscal_document_type.custrecord_pe_apply_to</object>
+      <object>customrecord_pe_fiscal_document_type.custrecord_pe_code_document_type</object>
+      <object>customrecord_pe_fiscal_document_type.custrecord_pe_detraction</object>
+      <object>customrecord_pe_fiscal_document_type.custrecord_pe_dua</object>
+      <object>customrecord_pe_fiscal_document_type.custrecord_pe_expense_report</object>
+      <object>customrecord_pe_fiscal_document_type.custrecord_pe_prefix</object>
+      <object>customrecord_pe_serie.custrecord_para_anulacin</object>
+      <object>customrecord_pe_serie.custrecord_pe_digitos</object>
+      <object>customrecord_pe_serie.custrecord_pe_final</object>
+      <object>customrecord_pe_serie.custrecord_pe_inicio</object>
+      <object>customrecord_pe_serie.custrecord_pe_location</object>
+      <object>customrecord_pe_serie.custrecord_pe_serie_impresion</object>
+      <object>customrecord_pe_serie.custrecord_pe_tipo_documento_aplicado</object>
+      <object>customrecord_pe_serie.custrecord_pe_tipo_documento_serie</object>
+      <object>customrecord_pe_serie</object>
+      <object>customrecord_pe_tipo_facturacion.custrecord_pe_cod_fact</object>
+      <object>customrecord_pe_tipo_facturacion.custrecord_pe_op_type_subsidiary</object>
+      <object>customrecord_pe_tipo_facturacion</object>
+      <object>customlist_pe_fel_forma_pago</object>
+      <object>custitem_pe_validacion_activo_fijo</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_pe_busqueda_cliente</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>custbody_pe_document_type_ref</object>
+      <object>custbody_pe_journal_flag</object>
+      <object>custbody_pe_journal_mirror</object>
+      <object>custbody_ts_budget_state</object>
+      <object>customlist_operation_type</object>
+      <object>customlist_ts_cp_budget_status</object>
+      <object>customrecord_pe_delivery_information</object>
+      <object>custbody_sii_code</object>
+      <object>customrecord_pe_conventions</object>
+      <object>custcol_pe_customer_journal</object>
+      <object>custcol_scm_item_parent</object>
+      <object>custbody_pe_document_type</object>
+      <object>custentity_pe_document_number</object>
+      <object>custitem_pe_purchase_account</object>
+      <object>customrecord_fam_assetvalues.custrecord_slavebookvalue</object>
+      <object>customrecord_fam_assetvalues.custrecord_slavelastdepramt</object>
+      <object>customrecord_fam_assetvalues.custrecord_slavelastdeprdate</object>
+      <object>customrecord_fam_assetvalues.custrecord_slavelastforecastdate</object>
+      <object>customrecord_fam_assetvalues.custrecord_slaveparentasset</object>
+      <object>customrecord_fam_assetvalues.custrecord_slaveparenttax</object>
+      <object>custbody_pe_fecha_inicio_traslado</object>
+      <object>custbody_pe_location_source</object>
+      <object>custbody_pe_modalidad_de_traslado</object>
+      <object>custbody_pe_motivos_de_traslado</object>
+      <object>custbody_pe_reason_details</object>
+      <object>custbody_pe_ubigeo_punto_llegada</object>
+      <object>custbody_pe_ubigeo_punto_partida</object>
+      <object>customrecord_pe_codigo_motivo_traslado</object>
+      <object>customrecord_pe_motivo_de_traslado</object>
+      <object>customrecord_pe_ubigeo</object>
+      <object>custbody_pe_payment_methods</object>
+      <object>customrecord_pe_payment_method.custrecord_pe_cod_payment_method</object>
+      <object>customrecord_pe_payment_method</object>
+      <object>customrecord_pe_update_coa_sum_inv.custrecord_pe_account_update</object>
+      <object>customrecord_pe_update_coa_sum_inv</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>customrecord_ncfar_deprhistory.custrecord_deprhistsubsidiary</object>
+      <object>custbody_pe_serie_cxp</object>
+      <object>custcol_pe_imp_pagado_ln</object>
+      <object>custrecord_pe_codigo_3_1</object>
+      <object>custrecord_pe_codigo_3_18</object>
+      <object>customrecord_ncfar_deprhistory.custrecord_deprhistaltmethod</object>
+      <object>customrecord_ncfar_deprhistory.custrecord_deprhistasset</object>
+      <object>customrecord_ncfar_deprhistory.custrecord_deprhistory_schedule</object>
+      <object>custcol_pe_ln_fec_emi_fc</object>
+      <object>custcol_pe_imp_original_ln</object>
+
+      <object>custrecord_pe_codigo_3_20</object>
+      <object>customrecord_ncfar_deprhistory.custrecord_deprhistassettype</object>
+      <object>customrecord_ncfar_deprhistory.custrecord_deprhistdate</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>custcol_pe_factura_ln</object>
+      <object>customrecord_pe_generation_logs.custrecord_pe_book_log</object>
+      <object>custbody_pe_document_date_ref</object>
+      <object>custbody_pe_flag_created_from</object>
+      <object>customrecord_pe_generation_logs.custrecord_pe_file_cabinet_log</object>
+      <object>customrecord_pe_generation_logs.custrecord_pe_period_log</object>
+      <object>customrecord_pe_generation_logs.custrecord_pe_report_log</object>
+      <object>custrecord_pe_codigo_3_24</object>
+      <object>customrecord_pe_generation_logs.custrecord_pe_status_log</object>
+      <object>custbody_pe_busqueda_cliente</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>customrecord_pe_generation_logs.custrecord_pe_subsidiary_log</object>
+      <object>custbody_pe_journal_flag</object>
+      <object>custbody_pe_journal_mirror</object>
+      <object>custbody_pe_delivery_information</object>
+      <object>custbody_pe_detraccion</object>
+      <object>custbody_pe_ruc_vendor</object>
+      <object>custbody_pe_reason</object>
+      <object>custrecord_pe_codigo_3_25</object>
+      <object>custentity_pe_code_document_type</object>
+      <object>custentity_pe_document_number</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>custbody_pe_document_type_ref</object>
+      <object>customlist_operation_type</object>
+      <object>customrecord_pe_conventions</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_pe_busqueda_cliente</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>custbody_pe_document_type_ref</object>
+      <object>custbody_pe_es_consignacion</object>
+      <object>custbody_pe_journal_flag</object>
+      <object>custbody_pe_journal_mirror</object>
+      <object>custbody_ts_budget_state</object>
+      <object>customlist_operation_type</object>
+      <object>customlist_ts_cp_budget_status</object>
+      <object>customrecord_pe_conventions</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_pe_busqueda_cliente</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>custbody_pe_document_type_ref</object>
+      <object>custbody_pe_es_consignacion</object>
+      <object>custbody_pe_journal_flag</object>
+      <object>custbody_pe_journal_mirror</object>
+      <object>custbody_ts_budget_state</object>
+      <object>customlist_operation_type</object>
+      <object>customlist_ts_cp_budget_status</object>
+      <object>customrecord_pe_conventions</object>
+      <object>custbody_pe_document_type</object>
+      <object>custentity_pe_code_document_type</object>
+      <object>custentity_pe_document_number</object>
+      <object>customlist_fam_list_usedaccounts</object>
+      <object>customrecord_pe_bank</object>
+      <object>customrecord_pe_coa_sunat</object>
+      <object>custrecord_acct_bank_account_number</object>
+      <object>custrecord_fam_account_showinfixedasset</object>
+      <object>custrecord_pe_bank</object>
+      <object>custrecord_pe_bank_account</object>
+      <object>custrecord_pe_coa</object>
+      <object>customlist_ncfar_depractive</object>
+      <object>customrecord_ncfar_asset.custrecord_assetdepractive</object>
+      <object>customrecord_ncfar_asset.custrecord_assetdeprstartdate</object>
+      <object>customrecord_ncfar_asset.custrecord_assetinclreports</object>
+      <object>customrecord_ncfar_asset.custrecord_assetpurchaseorder</object>
+      <object>customrecord_ncfar_asset.custrecord_assetsubsidiary</object>
+      <object>customrecord_ncfar_asset.custrecord_assettype</object>
+      <object>custbody_pe_document_type</object>
+      <object>custbody_pe_ei_forma_pago</object>
+      <object>custbody_pe_number</object>
+      <object>custbody_pe_operation_type</object>
+      <object>custbody_pe_serie</object>
+      <object>customlist_pe_fel_forma_pago</object>
+      <object>customrecord_pe_operation_type</object>
+      <object>customrecord_pe_serie</object>
+
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>customrecord_pe_generation_logs</object>
+      <object>custbody_pe_status_detraccion</object>
+      <object>custbody_pe_journal_mirror</object>
+      <object>custbody_ts_budget_state</object>
+      <object>customlist_operation_type</object>
+      <object>customlist_ts_cp_budget_status</object>
+      <object>customrecord_pe_conventions</object>
+
+      <object>custrecord_pe_codigo_3_19</object>
+      <object>custbody_pe_document_type_ref</object>
+      <object>custbody_pe_journal_flag</object>
+      <object>custbody_pe_journal_mirror</object>
+      <object>custbody_ts_budget_state</object>
+      <object>custentity_pe_document_number</object>
+      <object>customlist_operation_type</object>
+      <object>customlist_ts_cp_budget_status</object>
+      <object>customrecord_pe_conventions</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>custbody_pe_document_type_ref</object>
+      <object>custbody_pe_journal_flag</object>
+      <object>custbody_pe_journal_mirror</object>
+      <object>custbody_ts_budget_state</object>
+      <object>customlist_operation_type</object>
+      <object>customlist_ts_cp_budget_status</object>
+      <object>customrecord_pe_conventions</object>
+      <object>custentity_pe_flag_tax_number_api_ruc</object>
+      <object>custitem_pe_existence_type</object>
+      <object>custitem_pe_inventory_catalog</object>
+      <object>custitem_pe_measurement_unit</object>
+      <object>custitem_pe_purchase_account</object>
+      <object>custitem_pe_valuation_method</object>
+      <object>custitem_pe_variation_account</object>
+      <object>customrecord_pe_existence_type</object>
+      <object>customrecord_pe_inventoty_catalog</object>
+      <object>customrecord_pe_measurement_unit</object>
+      <object>customrecord_pe_valuation_method</object>
+      <object>custitem_pe_measurement_unit</object>
+      <object>customrecord_pe_measurement_unit</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>custbody_pe_document_type_ref</object>
+      <object>customlist_operation_type</object>
+      <object>customrecord_pe_conventions</object>
+      <object>custbody_4599_mx_operation_type</object>
+      <object>custbody_pe_busqueda_cliente</object>
+      <object>custbody_pe_convention_avoid_double_ta</object>
+      <object>custbody_pe_document_type_ref</object>
+      <object>custbody_pe_journal_flag</object>
+      <object>custbody_pe_journal_mirror</object>
+      <object>custbody_ts_budget_state</object>
+      <object>customlist_operation_type</object>
+      <object>customlist_ts_cp_budget_status</object>
+      <object>customrecord_pe_conventions</object>
+      <object>customscript_ei_pl_outbound_validation</object>
+      <object>customscript_ei_pl_sending_plugin</object>
+      <object>custbody_pe_end_user_2</object>
+      <object>custbody_pe_driver_license</object>
+
+      <object>custbody_pe_driver_name</object>
+      <object>custbody_pe_driver_last_name</object>
+      <object>custbody_pe_closing_journal</object>
+      <object>custbody_pe_end_user_1</object>
+      <object>custbody_pe_exoneration_applied</object>
+      <object>custbody_pe_code_dua</object>
+      <object>custbody_pe_document_number_ref</object>
+      <object>custbody_pe_class_goods_and_services</object>
+      <object>custbody_pe_company_name</object>
+      <object>custbody_pe_application_art_76</object>
+      <object>custbody_pe_concept_detraction</object>
+      <object>custbody_pe_delivery_address</object>
+      <object>custbody_pe_details_detraccion</object>
+      <object>custbody_pe_opening_journal</object>
+      <object>custbody_pe_invoice_operation_type</object>
+      <object>custbody_pe_document_series_ref</object>
+      <object>custbody_pe_driver_document_number</object>
+      <object>custbody_pe_fecha_rec_com</object>
+      <object>custbody_pe_percentage_detraccion</object>
+      <object>custbody_pe_source_address</object>
+      <object>custbody_pe_ruc_empresa_transporte</object>
+      <object>custbody_pe_peso_tn</object>
+      <object>custbody_pe_costo_min</object>
+      <object>custbody_pe_domicilio_transportista</object>
+      <object>custbody_pe_cert_insc_transportista</object>
+      <object>custbody_pe_pasaporte</object>
+      <object>custbody_il_numero_vuelo</object>
+      <object>custbody_pe_nombre</object>
+      <object>custbody_pe_total_item</object>
+      <object>custbody_pe_car_brand</object>
+      <object>custbody_pe_car_plate</object>
+      <object>custbody_pe_driver_document_type_code</object>
+      <object>custbody_pe_amount_words</object>
+      <object>custbody_pe_free_operation</object>
+      <object>custbody_pe_status_ov</object>
+      <object>custbody_pe_ei_operation_type</object>
+      <object>custbody_pe_type_service_provided</object>
+      <!-- <object>custbody_pe_number_er_2</object> -->
+      <object>custbody_pe_cuenta_ajuste_consumo</object>
+      <object>custbody_pe_proximo_aprobador</object>
+      <object>custbody_pe_empleado_solicitud</object>
+      <object>custbody_pe_entidad_prestamo</object>
+      <object>custbody_pe_validacion_prestamo</object>
+      <object>custcol_pe_disponible_en_consignacion</object>
+      <object>custcol_pe_aplicar_consignacion</object>
+      <object>custcol_pe_cantidad_consignada</object>
+      <object>custcol_pe_ln_detraccion_number</object>
+      <object>custcol_pe_retencion_manual</object>
+      <object>custcol_pe_linea_ajuste_retencion</object>
+      <object>custcol_pe_is_icbp</object>
+      <object>custcol_pe_anticipo</object>
+      <object>custcol_pe_ln_class_goods_and_service</object>
+      <object>custcol_pe_average_cost</object>
+      <object>custcol_pe_ln_vendor</object>
+      <object>custcol_pe_ln_legal_name</object>
+      <object>custcol_pe_ln_doc_num_iden</object>
+      <object>custcol_pe_ln_exchange_rate</object>
+      <object>custcol_pe_is_pretax</object>
+      <object>custcol_pe_detraccion_number</object>
+      <object>custcol_pe_is_discount_line</object>
+      <object>custcol_pe_discount_line</object>
+      <object>custcol_pe_ln_number</object>
+      <object>custcol_pe_ln_serie_cxp</object>
+      <object>custcol_pe_ln_document_type</object>
+      <object>custcol_pe_ln_bill_detraccion</object>
+      <object>custcol_pe_ln_detraccion_date</object>
+      <object>custcol_pe_ln_vendor_detraccion</object>
+      <object>custcol_pe_afec_igv</object>
+      <object>custcol_pe_ln_detraccion</object>
+      <object>custcol_pe_tax_code_id</object>
+      <object>custcol_redonde_detraccion</object>
+      <object>custcol_pe_detraccion_redondeo</object>
+      <object>custcol_pe_diferencia_redondeo</object>
+      <object>custcol_pe_det_red_dec</object>
+      <object>custcol_pe_dif_red_dec</object>
+      <object>custcol_pe_disponible_en_consignacion</object>
+      <object>custtmpl_105_7460686_835</object>
+      <object>custcol_pe_cantidad_consignada</object>
+      <object>custcol_pe_ln_detraccion_number</object>
+      <object>custcol_pe_retencion_manual</object>
+      <object>custcol_pe_linea_ajuste_retencion</object>
+      <object>custcol_pe_is_icbp</object>
+      <object>custcol_pe_anticipo</object>
+      <object>custcol_pe_ln_class_goods_and_service</object>
+      <object>custcol_pe_average_cost</object>
+      <object>custbody_il_pais</object>
+      <object>custcol_pe_ln_legal_name</object>
+      <object>custcol_pe_ln_doc_num_iden</object>
+      <object>custcol_pe_ln_exchange_rate</object>
+      <object>custcol_pe_is_pretax</object>
+      <object>custcol_pe_detraccion_number</object>
+      <object>custcol_pe_is_discount_line</object>
+      <object>custcol_pe_discount_line</object>
+      <object>custcol_pe_ln_number</object>
+      <object>custcol_pe_ln_serie_cxp</object>
+      <object>custcol_pe_ln_document_type</object>
+      <object>custcol_pe_ln_bill_detraccion</object>
+      <object>custcol_pe_ln_detraccion_date</object>
+      <object>custcol_pe_ln_vendor_detraccion</object>
+      <object>custcol_pe_afec_igv</object>
+      <object>custcol_pe_ln_detraccion</object>
+      <object>custcol_pe_tax_code_id</object>
+      <object>custcol_redonde_detraccion</object>
+      <object>custcol_pe_detraccion_redondeo</object>
+      <object>custbody_ts_pago_detraccion</object>
+      <object>custcol_pe_det_red_dec</object>
+      <object>custcol_pe_dif_red_dec</object>
+      <object>custbody_pe_flag_serie</object>
+      <object>custbody_pe_type_of_rental</object>
+      <object>custbody_pe_flag_discount_icbper</object>
+      <object>custbody_pe_flag_lines_csg</object>
+      <object>custbody_pe_flag_print_pdf</object>
+      <object>custbody_pe_transaccion_relacionada</object>
+      <object>custbody_pe_flag_total</object>
+      <object>custbody_pe_flag_hora_emision</object>
+      <object>custbody_pe_flag_address_location</object>
+      <object>custbody_pe_flag_monto_letras</object>
+      <object>custbody_pe_flag_dni_user</object>
+      <object>custbody_pe_tipo_de_diario</object>
+      <object>custbody_pe_numero_de_registro_mtc</object>
+      <object>custbody_pe_num_autorizacion_principal</object>
+      <object>custbody_pe_ubicacion_para_serie</object>
+      <object>custbody_pe_total_moneda_base</object>
+      <object>custbody_pe_subsidiaria</object>
+      <object>custbody_pe_subsidiaria_dir</object>
+      <object>custbody_pe_subsidiaria_ruc</object>
+      <object>custbody_pe_subsidiaria_telefax</object>
+      <object>custbody_pe_subsidiaria_web</object>
+      <object>custbody_pe_cliente_numerodoc</object>
+      <object>custbody_pe_cliente_tipodoc</object>
+      <object>custbody_pe_serie_guia_remision</object>
+      <object>custbody_pe_distrito_facturacion</object>
+      <object>custbody_pe_distrito_entrega</object>
+      <!-- <object>custbody_ts_pago_detraccion</object> -->
+      <object>custtab_7_4346104_208_4</object>
+      <object>custtab_26_7460686_746</object>
+      <object>custbody_pe_dua</object>
+      <object>custbody_pe_contract_identification</object>
+      <object>custbody_pe_entity_country</object>
+      <object>custbody_pe_folio</object>
+      <object>custbody_pe_opening_balance</object>
+      <object>custbody_pe_detraccion_number</object>
+      <object>custbody_pe_detraccion_dep_date</object>
+      <object>custbody_pe_void</object>
+      <object>custbody_pe_last_number</object>
+      <object>custbody_pe_serie_location</object>
+      <object>custtab_7_4346104_208</object>
+      <object>custbody_pe_ei_printed_pdf</object>
+      <object>custbody_pe_ei_printed_xml_res</object>
+      <object>custbody_pe_ei_printed_cdr_res</object>
+      <object>custbody_pe_ei_printed_xml_req</object>
+      <object>custbody_pe_fe_ticket_id</object>
+      <object>custtmpl_114_6785603_sb1_947</object>
+      <object>custform_pe_credit_memo</object>
+      <object>custform_pe_item_receipt</object>
+      <object>custform_pe_return_authorization_credit</object>
+      <object>custbody_currentuser_hid</object>
+      <object>custform_pe_bill_payment</object>
+      <object>custform_125_6125688_sb1_422</object>
+      <object>custform_pe_desapcho_guia_de_remision</object>
+      <object>custform_pe_documentos_nacionales</object>
+      <object>custform_pe_factura</object>
+      <object>custtmpl_124_6125688_sb1_366</object>
+      <object>custform_142_6125688_sb1_764</object>
+      <object>custtmpl_120_6125688_sb1_301</object>
+      <object>custform_139_6125688_sb1_796</object>
+      <object>custform_pe_check</object>
+      <object>custform_pe_comprobante_retencion</object>
+      <object>custform_pe_documentos_no_domiciliados</object>
+      <object>custform_pe_informe_de_gastos</object>
+      <object>custform_111_6125688_sb1_880</object>
+      <object>custtmpl_107_6785603_sb1_901</object>
+      <object>custform_pe_venta_efectivo</object>
+      <object>custform_pe_orden_de_venta</object>
+      <object>custform_pe_salida_consumo</object>
+      <object>custform_pe_solicitud_consumo</object>
+      <object>customrecord_pe_concept_detraction.val_19654_7460686_319</object>
+      <object>custform_112_6125688_sb1_889</object>
+      <object>custform_113_6125688_sb1_475</object>
+      <object>custform_123_6125688_sb1_497</object>
+      <object>custform_pe_ajuste_de_inventario</object>
+      <object>custform_pe_customer_refund</object>
+      <object>custform_pe_deposit</object>
+      <object>custform_pe_deposito_de_cliente</object>
+      <object>custform_pe_nota_de_debito</object>
+      <object>custform_pe_orden_de_traslado</object>
+      <object>custform_pe_payment</object>
+      <object>custform_pe_transferencia_de_inventario</object>
+      <object>custform_pe_vendor_credit</object>
+      <object>custform_pe_vendor_return_authorization</object>
+      <object>customrecord_pe_fiscal_document_type.val_19692_7460686_228</object>
+      <object>customrecord_4601_witaxcode.val_33173_6125688_114</object>
+      <object>customrecord_pe_fiscal_document_type.val_19734_7460686_603</object>
+    </objects>
+    <files>
+      <file>/SuiteScripts/Capacitacion/core/clientScript.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_CS_ItemRec_Fulfill_CashS_CSG.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_CS_CreditoFactura.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_CS_Customer_Vendor.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_CS_FacturaProveedor.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_CS_FacturaVenta.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/Script Client/TS_CS_Aditional_Features.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/Script Client/TS_CS_FEL_Metod.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/Script Client/TS_CS_OrdenTraslado.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/Script Client/TS_CS_ProveedorCliente.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/Script Client/TS_CS_Recep_Articulo.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_CS_Aditional_Features.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_RT_ConsultaRuc.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_RT_CosultarDNI.js</file>
+      <file>/SuiteScripts/Capacitacion/core/WN_RS_CRUD_Cliente.js</file>
+      <file>/SuiteScripts/Pruebas/WN_RS_HelloWorld.js</file>
+      <file>/SuiteScripts/Pruebas/WN_RS_TipoDeCambio.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_317LibroInvBal.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_318LibroInvBal.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_319LibroInvBal.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_320LibroInvBal.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_12_1_InvPerm.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_13_1_InvVal.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_3_10_DetTributos.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_3_11_DetRemxPagar.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_3_12_DetProveedores.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_3_13_DetCXPDivers.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_14.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_3_15_DetGanDif.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_1.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_2.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_3_9_DetIntang.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_9.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_41LibroRetenciones.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_51LibroDiario.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_5_3_LibroDiario.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_61LibroMayor.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_71ActivoFijo.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_9_1_ConsigConsignador.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_9_2_ConsigConsignatario.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_1_1.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_1_2.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_24.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_25.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_3.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_4.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_5.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_6.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_Formato_3_7.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_vendors_buenContribuyente.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_vendors_percepcion.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_vendors_retencion.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_MR_vendors_sujetoRetencion.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_6_1_Libro_Mayor_PDF.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_18_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_19_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_ActivoFijo_7_1.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_Detracc_BNacion.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_Detracc_Interno.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_Detracc_Journal.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_Detracc_Sunat.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_EntradaDiario.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_InvBal3_9.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_12_1_Libro_Inventario_permanente.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_13_1_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_14_1_RegVentas.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_1_1_Caja_y_Banco.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_1_2_Caja_y_Banco.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_11_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_12_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_13_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_14_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_15_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_1_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_20_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_24_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_25_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_2_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_3_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_4_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_5_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_6_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_7_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_9_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_4_1.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_5_1_Libro_Diario.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_5_3_Libro_Diario.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_6_1_LibroMayor.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_8_2_RegCompras.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_8_1_RegCompras.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_8_1_EX_RegCompras.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_9_1_Registro_Consignaciones_v2.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_Retenciones.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_RxH.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_3_17_Libro_Inventario_y_Balances.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SS_PLE_9_2_Registro_Consignaciones_v2.js</file>
+      <file>/SuiteScripts/Capacitacion/core/WN_SS_Programado.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SL_Activa_Detraccion.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SL_Detracciones.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SL_Detracciones_Gen.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_SL_PLE_Sunat.js</file>
+      <file>/SuiteScripts/TS NET Scripts/Print PDF/TS_ST_Print_PDF.js</file>
+      <file>/SuiteScripts/Capacitacion/core/WN_UI_Capacitacion.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_UE_Aditional_Features.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_UE_ItemRec_Fulfill_CashS_CSG.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_UE_CreacionComprobanteRetencion.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_UE_Customer.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_UE_Customer_Vendor.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_UE_Detraccion_Journal.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_UE_FacturaVenta.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_UE_Transactions.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/Script User Event/TS_UE_Aditional_Features.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/Script User Event/TS_UE_ProveedorCliente.js</file>
+      <file>/SuiteScripts/Capacitacion/core/WN_UE_Orden_Venta.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/plugin/TS_PL_Outbound_Validation.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_GL_Detraccion.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/plugin/PE_GL_receipt_fulfillment.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_PL_Consignaciones.js</file>
+      <file>/SuiteScripts/Bundle 486161/PE_PL_EI_FEL.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/plugin/TS_PL_Sending_Method.js</file>
+      <file>/SuiteScripts/TS NET Scripts/core/plugin/TS_PL_GlImpact.js</file>
+    </files>
+  </dependencies>
 </manifest>

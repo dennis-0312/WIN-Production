@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_pe_delivery_method_list">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Delivery Method List</name>
+  <customvalues>
+    <customvalue scriptid="val_36231_6785603_sb1_375">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Envío a domicilio</value>
+    </customvalue>
+    <customvalue scriptid="val_36232_6785603_sb1_822">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Recojo en tienda</value>
+    </customvalue>
+  </customvalues>
+</customlist>

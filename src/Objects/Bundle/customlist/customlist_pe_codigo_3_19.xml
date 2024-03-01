@@ -1,0 +1,179 @@
+<customlist scriptid="customlist_pe_codigo_3_19">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Códigos 3.19</name>
+  <customvalues>
+    <customvalue scriptid="val_831670_6785603_sb1_666">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Cambios en Políticas Contables </value>
+    </customvalue>
+    <customvalue scriptid="val_831679_6785603_sb1_792">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Saldos al 1ero. de enero de</value>
+    </customvalue>
+    <customvalue scriptid="val_831680_6785603_sb1_620">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>      Corrección de Errores</value>
+    </customvalue>
+    <customvalue scriptid="val_831681_6785603_sb1_447">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Saldo Inicial Reexpresado</value>
+    </customvalue>
+    <customvalue scriptid="val_831682_6785603_sb1_781">
+      <abbreviation>G</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (Pérdida) Neta del Ejercicio</value>
+    </customvalue>
+    <customvalue scriptid="val_831683_6785603_sb1_963">
+      <abbreviation>O</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otro Resultado Integral</value>
+    </customvalue>
+    <customvalue scriptid="val_831684_6785603_sb1_842">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Resultado Integral Total del Ejercicio</value>
+    </customvalue>
+    <customvalue scriptid="val_831685_6785603_sb1_235">
+      <abbreviation>D</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Dividendos en Efectivo Declarados</value>
+    </customvalue>
+    <customvalue scriptid="val_831686_6785603_sb1_410">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Emisión (reducción) de patrimonio</value>
+    </customvalue>
+    <customvalue scriptid="val_831687_6785603_sb1_601">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Reducción o Amortización de Acciones de Inversión</value>
+    </customvalue>
+    <customvalue scriptid="val_831688_6785603_sb1_476">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Incremento (Disminución) por otras Aportaciones de los Propietarios </value>
+    </customvalue>
+    <customvalue scriptid="val_831689_6785603_sb1_706">
+      <abbreviation>D</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Disminución (Incremento) por otras Distribuciones a los Propietarios </value>
+    </customvalue>
+    <customvalue scriptid="val_831690_6785603_sb1_877">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Incremento (Disminución) por Cambios en la Participación de Subsidiarias que no impliquen Pérdidas de Control</value>
+    </customvalue>
+    <customvalue scriptid="val_831691_6785603_sb1_862">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Incremento (disminución) por transacciones con acciones propias en cartera</value>
+    </customvalue>
+    <customvalue scriptid="val_831692_6785603_sb1_158">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Incremento (Disminución) por Transferencia y Otros Cambios de patrimonio</value>
+    </customvalue>
+    <customvalue scriptid="val_831693_6785603_sb1_251">
+      <abbreviation>T</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Total incremento (disminución) en el patrimonio</value>
+    </customvalue>
+    <customvalue scriptid="val_831694_6785603_sb1_168">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Saldos al 31 de diciembre de </value>
+    </customvalue>
+    <customvalue scriptid="val_831695_6785603_sb1_221">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Saldos al 1ero. de enero de </value>
+    </customvalue>
+    <customvalue scriptid="val_831696_6785603_sb1_264">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Cambios en Políticas Contables </value>
+    </customvalue>
+    <customvalue scriptid="val_831697_6785603_sb1_418">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Corrección de Errores</value>
+    </customvalue>
+    <customvalue scriptid="val_831698_6785603_sb1_450">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Saldo Inicial Reexpresado</value>
+    </customvalue>
+    <customvalue scriptid="val_831699_6785603_sb1_497">
+      <abbreviation>G</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ganancia (Pérdida) Neta del Ejercicio</value>
+    </customvalue>
+    <customvalue scriptid="val_831700_6785603_sb1_349">
+      <abbreviation>O</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otro Resultado Integral</value>
+    </customvalue>
+    <customvalue scriptid="val_831701_6785603_sb1_492">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Resultado Integral Total del Ejercicio</value>
+    </customvalue>
+    <customvalue scriptid="val_831702_6785603_sb1_736">
+      <abbreviation>D</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Dividendos en Efectivo Declarados</value>
+    </customvalue>
+    <customvalue scriptid="val_831703_6785603_sb1_819">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Emisión (reducción) de patrimonio</value>
+    </customvalue>
+    <customvalue scriptid="val_831704_6785603_sb1_998">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Reducción o Amortización de Acciones de Inversión</value>
+    </customvalue>
+    <customvalue scriptid="val_831705_6785603_sb1_460">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Incremento (Disminución) por otras Aportaciones de los Propietarios </value>
+    </customvalue>
+    <customvalue scriptid="val_831706_6785603_sb1_525">
+      <abbreviation>D</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Disminución (Incremento) por otras Distribuciones a los Propietarios </value>
+    </customvalue>
+    <customvalue scriptid="val_831707_6785603_sb1_427">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Incremento (Disminución) por Cambios en la Participación de Subsidiarias que no impliquen Pérdidas de Control</value>
+    </customvalue>
+    <customvalue scriptid="val_831708_6785603_sb1_342">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Incremento (disminución) por transacciones con acciones propias en cartera</value>
+    </customvalue>
+    <customvalue scriptid="val_831709_6785603_sb1_919">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Incremento (Disminución) por Transferencia y Otros Cambios de patrimonio</value>
+    </customvalue>
+    <customvalue scriptid="val_831710_6785603_sb1_784">
+      <abbreviation>T</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Total incremento (disminución) en el patrimonio</value>
+    </customvalue>
+    <customvalue scriptid="val_831711_6785603_sb1_811">
+      <abbreviation>S</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Saldos al 31 de diciembre de</value>
+    </customvalue>
+  </customvalues>
+</customlist>

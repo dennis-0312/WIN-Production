@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_pe_list_customer_category">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE List Customer Category </name>
+  <customvalues>
+    <customvalue scriptid="val_35535_7564265_sb1_405">
+      <abbreviation>F</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Foreign</value>
+    </customvalue>
+    <customvalue scriptid="val_35536_7564265_sb1_982">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Intercompany</value>
+    </customvalue>
+    <customvalue scriptid="val_35537_7564265_sb1_328">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>National</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,89 @@
+<customlist scriptid="customlist_asb_tipo_subactividad_l">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>ASB Lista Tipo Sub Actividad</name>
+  <customvalues>
+    <customvalue scriptid="val_18502_8417837_420">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Adquisicion de inmueble, mobiliario y equipo</value>
+    </customvalue>
+    <customvalue scriptid="val_35213_8417837_997">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Adquisicion de intangible</value>
+    </customvalue>
+    <customvalue scriptid="val_35214_8417837_594">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Amortizacion de prestamo recibido de una institucion financiera</value>
+    </customvalue>
+    <customvalue scriptid="val_35215_8417837_533">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Apertura y cobro de intereses por deposito a plazo fijo</value>
+    </customvalue>
+    <customvalue scriptid="val_35216_8417837_940">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Cobranza por aportes y otros servicios</value>
+    </customvalue>
+    <customvalue scriptid="val_35217_8417837_699">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Cobro de intereses por depositos a plazo y cuentas de ahorro</value>
+    </customvalue>
+    <customvalue scriptid="val_35218_8417837_340">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Compra o venta de instrumentos financieros</value>
+    </customvalue>
+    <customvalue scriptid="val_35219_8417837_148">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otros cobros / pagos de la actividad</value>
+    </customvalue>
+    <customvalue scriptid="val_35220_8417837_318">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Otros cobros de la actividad</value>
+    </customvalue>
+    <customvalue scriptid="val_35221_8417837_460">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Pago a proveedores</value>
+    </customvalue>
+    <customvalue scriptid="val_35222_8417837_883">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Pago de intereses financieros</value>
+    </customvalue>
+    <customvalue scriptid="val_35223_8417837_301">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Pago de pasivos por arrendamiento financiero</value>
+    </customvalue>
+    <customvalue scriptid="val_35224_8417837_459">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Pago de tributos</value>
+    </customvalue>
+    <customvalue scriptid="val_35225_8417837_150">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Pago por remuneraciones y beneficios sociales</value>
+    </customvalue>
+    <customvalue scriptid="val_35226_8417837_874">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Prestamo recibido de institucion financiera</value>
+    </customvalue>
+    <customvalue scriptid="val_35227_8417837_977">
+      <abbreviation></abbreviation>
+      <isinactive>F</isinactive>
+      <value>Venta de inmueble, mobiliario y equipo</value>
+    </customvalue>
+  </customvalues>
+</customlist>

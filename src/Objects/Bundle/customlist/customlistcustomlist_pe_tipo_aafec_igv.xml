@@ -1,0 +1,99 @@
+<customlist scriptid="customlistcustomlist_pe_tipo_aafec_igv">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Tipo Afectacion IGV</name>
+  <customvalues>
+    <customvalue scriptid="val_35082_6125688_sb1_100">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>10 Gravado - Operación Onerosa</value>
+    </customvalue>
+    <customvalue scriptid="val_35083_6125688_sb1_976">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>11 Gravado – Retiro por premio</value>
+    </customvalue>
+    <customvalue scriptid="val_35084_6125688_sb1_882">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>12 Gravado – Retiro por donación</value>
+    </customvalue>
+    <customvalue scriptid="val_35085_6125688_sb1_172">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>13 Gravado – Retiro </value>
+    </customvalue>
+    <customvalue scriptid="val_35086_6125688_sb1_829">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>14 Gravado – Retiro por publicidad</value>
+    </customvalue>
+    <customvalue scriptid="val_35087_6125688_sb1_750">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>15 Gravado – Bonificaciones</value>
+    </customvalue>
+    <customvalue scriptid="val_35088_6125688_sb1_995">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>16 Gravado – Retiro por entrega a trabajadores</value>
+    </customvalue>
+    <customvalue scriptid="val_35089_6125688_sb1_798">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>17 Gravado – IVAP</value>
+    </customvalue>
+    <customvalue scriptid="val_35090_6125688_sb1_856">
+      <abbreviation>2</abbreviation>
+      <isinactive>F</isinactive>
+      <value>20 Exonerado - Operación Onerosa</value>
+    </customvalue>
+    <customvalue scriptid="val_35091_6125688_sb1_335">
+      <abbreviation>2</abbreviation>
+      <isinactive>F</isinactive>
+      <value>21 Exonerado – Transferencia Gratuita</value>
+    </customvalue>
+    <customvalue scriptid="val_35092_6125688_sb1_652">
+      <abbreviation>3</abbreviation>
+      <isinactive>F</isinactive>
+      <value>30 Inafecto - Operación Onerosa </value>
+    </customvalue>
+    <customvalue scriptid="val_35093_6125688_sb1_296">
+      <abbreviation>3</abbreviation>
+      <isinactive>F</isinactive>
+      <value>31 Inafecto – Retiro por Bonificación</value>
+    </customvalue>
+    <customvalue scriptid="val_35094_6125688_sb1_839">
+      <abbreviation>3</abbreviation>
+      <isinactive>F</isinactive>
+      <value>32 Inafecto – Retiro</value>
+    </customvalue>
+    <customvalue scriptid="val_35095_6125688_sb1_508">
+      <abbreviation>3</abbreviation>
+      <isinactive>F</isinactive>
+      <value>33 Inafecto – Retiro por Muestras Médicas</value>
+    </customvalue>
+    <customvalue scriptid="val_35096_6125688_sb1_703">
+      <abbreviation>3</abbreviation>
+      <isinactive>F</isinactive>
+      <value>34 Inafecto - Retiro por Convenio Colectivo</value>
+    </customvalue>
+    <customvalue scriptid="val_35097_6125688_sb1_332">
+      <abbreviation>3</abbreviation>
+      <isinactive>F</isinactive>
+      <value>35 Inafecto – Retiro por premio</value>
+    </customvalue>
+    <customvalue scriptid="val_35098_6125688_sb1_240">
+      <abbreviation>3</abbreviation>
+      <isinactive>F</isinactive>
+      <value>36 Inafecto - Retiro por publicidad</value>
+    </customvalue>
+    <customvalue scriptid="val_35099_6125688_sb1_285">
+      <abbreviation>4</abbreviation>
+      <isinactive>F</isinactive>
+      <value>40 Exportación</value>
+    </customvalue>
+  </customvalues>
+</customlist>

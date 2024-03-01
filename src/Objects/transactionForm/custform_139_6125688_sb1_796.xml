@@ -1,0 +1,38 @@
+<transactionForm scriptid="custform_139_6125688_sb1_796" standard="STANDARDPACKINGSLIP">
+  <name>Nota de empaquetado</name>
+  <recordType>INVOICE</recordType>
+  <inactive>F</inactive>
+  <preferred>T</preferred>
+  <mainFields>
+    <defaultFieldGroup/>
+  </mainFields>
+  <tabs>
+    <tab>
+      <id>TRANSACTIONSHIPPING</id>
+      <label>Shipping</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>TRANSACTIONPAYMENT</id>
+      <label>Payment</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+  </tabs>
+  <disclaimer/>
+  <address/>
+  <emailMessageTemplate>USE_DEFAULT</emailMessageTemplate>
+  <printingType>
+    <advanced>
+      <printTemplate>[scriptid=custtmpl_120_6125688_sb1_301]</printTemplate>
+      <emailTemplate>[scriptid=custtmpl_120_6125688_sb1_301]</emailTemplate>
+    </advanced>
+  </printingType>
+</transactionForm>

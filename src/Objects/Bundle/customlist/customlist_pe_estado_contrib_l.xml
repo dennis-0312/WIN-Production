@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_pe_estado_contrib_l">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Lista Estado Contrib</name>
+  <customvalues>
+    <customvalue scriptid="val_114184_7217974_sb1_979">
+      <abbreviation>A</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Activo</value>
+    </customvalue>
+    <customvalue scriptid="val_114185_7217974_sb1_299">
+      <abbreviation>N</abbreviation>
+      <isinactive>F</isinactive>
+      <value>No Activo</value>
+    </customvalue>
+  </customvalues>
+</customlist>

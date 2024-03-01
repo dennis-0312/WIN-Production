@@ -1,0 +1,9 @@
+<advancedpdftemplate scriptid="custtmpl_124_6125688_sb1_366" standard="STDTMPLPACKINGSLIP">
+  <description>Nota de empaquetado</description>
+  <displaysourcecode>F</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>F</preferred>
+  <printtype>PACKINGSLIP</printtype>
+  <title>PE Nota de empaquetado Venta</title>
+  <trantype>CUSTINVC</trantype>
+</advancedpdftemplate>

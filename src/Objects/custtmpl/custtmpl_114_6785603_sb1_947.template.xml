@@ -1,0 +1,9 @@
+<advancedpdftemplate scriptid="custtmpl_114_6785603_sb1_947" standard="STDTMPLEMPTY">
+  <description></description>
+  <displaysourcecode>F</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>T</preferred>
+  <printtype>TRANSACTION</printtype>
+  <title>Plantilla Personalizada de Orden de Venta</title>
+  <trantype>SALESORD</trantype>
+</advancedpdftemplate>

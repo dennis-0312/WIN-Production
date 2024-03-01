@@ -1,0 +1,39 @@
+<customlist scriptid="customlist_pe_status_ov">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>PE Status OV</name>
+  <customvalues>
+    <customvalue scriptid="val_116384_7217974_sb1_619">
+      <abbreviation>P</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Pagado</value>
+    </customvalue>
+    <customvalue scriptid="val_116385_7217974_sb1_200">
+      <abbreviation>F</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Facturado</value>
+    </customvalue>
+    <customvalue scriptid="val_116386_7217974_sb1_460">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Enviado</value>
+    </customvalue>
+    <customvalue scriptid="val_116387_7217974_sb1_121">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Completado</value>
+    </customvalue>
+    <customvalue scriptid="val_116388_7217974_sb1_335">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Cancelado</value>
+    </customvalue>
+    <customvalue scriptid="val_116389_7217974_sb1_533">
+      <abbreviation>G</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Generado</value>
+    </customvalue>
+  </customvalues>
+</customlist>

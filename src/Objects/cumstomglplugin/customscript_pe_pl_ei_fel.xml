@@ -1,0 +1,13 @@
+<pluginimplementation scriptid="customscript_pe_pl_ei_fel">
+  <customplugintype>[scriptid=customscript_ei_pl_sending_plugin]</customplugintype>
+  <description></description>
+  <isinactive>F</isinactive>
+  <loglevel>DEBUG</loglevel>
+  <name>PE PL EI FEL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Bundle 486161/PE_PL_EI_FEL.js]</scriptfile>
+  <status>TESTING</status>
+</pluginimplementation>

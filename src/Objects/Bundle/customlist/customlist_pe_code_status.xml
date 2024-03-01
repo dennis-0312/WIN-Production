@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_pe_code_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Código Estado del Activo Fijo</name>
+  <customvalues>
+    <customvalue scriptid="val_117122_7217974_sb1_121">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>1</value>
+    </customvalue>
+    <customvalue scriptid="val_117123_7217974_sb1_406">
+      <abbreviation>2</abbreviation>
+      <isinactive>F</isinactive>
+      <value>2</value>
+    </customvalue>
+    <customvalue scriptid="val_117124_7217974_sb1_874">
+      <abbreviation>9</abbreviation>
+      <isinactive>F</isinactive>
+      <value>9</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,49 @@
+<customlist scriptid="customlist_ts_cp_budget_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Estado Presupuesto</name>
+  <customvalues>
+    <customvalue scriptid="val_105902_7217974_sb1_244">
+      <abbreviation>P</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Presupuestado</value>
+    </customvalue>
+    <customvalue scriptid="val_105903_7217974_sb1_628">
+      <abbreviation>R</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Reservado</value>
+    </customvalue>
+    <customvalue scriptid="val_105904_7217974_sb1_409">
+      <abbreviation>C</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Comprometido</value>
+    </customvalue>
+    <customvalue scriptid="val_105905_7217974_sb1_448">
+      <abbreviation>E</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Ejecutado</value>
+    </customvalue>
+    <customvalue scriptid="val_105906_7217974_sb1_587">
+      <abbreviation>T</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Transferido</value>
+    </customvalue>
+    <customvalue scriptid="val_105907_7217974_sb1_847">
+      <abbreviation>D</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Disponible</value>
+    </customvalue>
+    <customvalue scriptid="val_105908_7217974_sb1_966">
+      <abbreviation>A</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Anulado</value>
+    </customvalue>
+    <customvalue scriptid="val_105909_7217974_sb1_374">
+      <abbreviation>A</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Adición</value>
+    </customvalue>
+  </customvalues>
+</customlist>

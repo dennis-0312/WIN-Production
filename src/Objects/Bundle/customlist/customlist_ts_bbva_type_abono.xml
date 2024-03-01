@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_ts_bbva_type_abono">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>BBVA Tipo de Abono</name>
+  <customvalues>
+    <customvalue scriptid="val_32300_6125688_sb1_815">
+      <abbreviation>P</abbreviation>
+      <isinactive>F</isinactive>
+      <value>P = Propio banco</value>
+    </customvalue>
+    <customvalue scriptid="val_32301_6125688_sb1_605">
+      <abbreviation>I</abbreviation>
+      <isinactive>F</isinactive>
+      <value>I = Interbancario</value>
+    </customvalue>
+    <customvalue scriptid="val_32302_6125688_sb1_675">
+      <abbreviation>O</abbreviation>
+      <isinactive>F</isinactive>
+      <value>O = Orden de Pago</value>
+    </customvalue>
+  </customvalues>
+</customlist>

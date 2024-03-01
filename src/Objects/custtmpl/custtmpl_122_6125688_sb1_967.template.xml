@@ -1,0 +1,9 @@
+<advancedpdftemplate scriptid="custtmpl_122_6125688_sb1_967" standard="STDTMPLSHIPPINGLABEL">
+  <description></description>
+  <displaysourcecode>F</displaysourcecode>
+  <isinactive>F</isinactive>
+  <preferred>T</preferred>
+  <printtype>SHIPPINGLABEL</printtype>
+  <title>PE Etiqueta de envío</title>
+  <trantype>CUSTINVC</trantype>
+</advancedpdftemplate>

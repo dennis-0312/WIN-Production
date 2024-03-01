@@ -1,0 +1,13 @@
+<customglplugin scriptid="customscript_ts_pl_glimpact">
+  <description></description>
+  <isinactive>F</isinactive>
+  <loglevel>DEBUG</loglevel>
+  <name>TS PL GlImpact</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <runasrole></runasrole>
+  <scriptfile>[/SuiteScripts/TS NET Scripts/core/plugin/TS_PL_GlImpact.js]</scriptfile>
+  <status>RELEASED</status>
+</customglplugin>

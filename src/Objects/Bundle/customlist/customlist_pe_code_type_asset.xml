@@ -1,0 +1,19 @@
+<customlist scriptid="customlist_pe_code_type_asset">
+  <description></description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Código Tipo de Activo Fijo</name>
+  <customvalues>
+    <customvalue scriptid="val_117118_7217974_sb1_580">
+      <abbreviation>1</abbreviation>
+      <isinactive>F</isinactive>
+      <value>1</value>
+    </customvalue>
+    <customvalue scriptid="val_117119_7217974_sb1_729">
+      <abbreviation>2</abbreviation>
+      <isinactive>F</isinactive>
+      <value>2</value>
+    </customvalue>
+  </customvalues>
+</customlist>

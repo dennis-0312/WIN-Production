@@ -1,0 +1,101 @@
+<#assign data = input.data?eval >
+<#assign company = data.company >
+<#assign cabecera = data.cabecera >
+<#assign total = data.total >
+<#assign movements = data.movements >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+   <head>
+
+      <meta name="title" value="Formato 1.1" />
+      <macrolist>
+         <macro id = "cabecera">
+            <table width="100%">
+               <tr>
+                  <td colspan="3" align="center" style= "font-weight: bold;">FORMATO 1.1: LIBRO CAJA Y BANCOS - DETALLE DE LOS MOVIMIENTOS DEL EFECTIVO</td>
+               </tr>
+               <tr>
+                  <td width="40%" align="left" style= "font-weight: bold;">PERIODO</td>
+                  <td width="5%" align="left" style= "font-weight: bold;">:</td>
+                  <td width="55%" align="left">${cabecera.periodo}</td>
+               </tr>
+               <tr>
+                  <td width="40%" align="left" style= "font-weight: bold;">RUC</td>
+                  <td width="5%" align="left" style= "font-weight: bold;">:</td>
+                  <td width="55%" align="left">${cabecera.ruc}</td>
+               </tr>
+               <tr>
+                  <td width="40%" align="left" style= "font-weight: bold;">APELLIDOS Y NOMBRES, DENOMINACIÓN O RAZON SOCIAL</td>
+                  <td width="5%" align="left" style= "font-weight: bold;">:</td>
+                  <td width="55%" align="left">${cabecera.razonSocial}</td>
+               </tr>
+            </table>
+         </macro>
+      </macrolist>
+   </head>
+   <body background-color="white" font-size="8" size="A4-landscape" header = "cabecera" header-height="22mm" footer-height="10mm">
+      <table style="font-family: Verdana, Arial, Helvetica, sans-serif; width:100%" >
+         <tr>
+            <td rowspan="2" align = "center " style= "border-left: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; font-weight:bold">
+               <table>
+                  <tr>
+                     <td align = "center " style="text-align: center;">NÚMERO CORRELATIVO DEL REGISTRO</td>
+                  </tr>
+                  <tr>
+                     <td align = "center " style="text-align: center;">O CÓDIGO ÚNICO DE LA OPERACIÓN</td>
+                  </tr>
+               </table>
+            </td>
+            <td rowspan="2" align = "center " style= "border-left: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; font-weight:bold">
+               <table>
+                  <tr>
+                     <td align = "center " style="text-align: center;">FECHA DE LA</td>
+                  </tr>
+                  <tr>
+                     <td align = "center " style="text-align: center;">OPERACIÓN</td>
+                  </tr>
+               </table>
+            </td>
+            <td rowspan="2" align = "center " style= "border-left: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; font-weight:bold">
+               <table>
+                  <tr>
+                     <td align = "center " style="text-align: center;">DESCRIPCION DE</td>
+                  </tr>
+                  <tr>
+                     <td align = "center " style="text-align: center;">LA OPERACIÓN</td>
+                  </tr>
+               </table>
+            </td>
+            <td colspan="2" align = "center " style= "border-left: 1px solid black; border-top: 1px solid black; font-weight:bold">CUENTA CONTABLE ASOCIADA</td>
+            <td width="25%" colspan="2" align = "center " style= "border-left: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; font-weight:bold">SALDOS Y MOVIMIENTOS</td>
+         </tr>
+         <tr>
+            <td align = "center " style= "border-left: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; font-weight:bold">CÓDIGO</td>
+            <td align = "center " style= "border-left: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; font-weight:bold">DENOMINACIÓN</td>
+            <td align = "center " style= "border-left: 1px solid black; border-top: 1px solid black; border-bottom: 1px solid black; font-weight:bold">DEUDOR</td>
+            <td align = "center " style= "border: 1px solid black; font-weight:bold">ACREEDOR</td>
+         </tr>
+         <#list movements as key,mov>
+            <tr>
+               <td align = "center ">${mov.codUniOperacion}</td>
+               <td align = "center ">${mov.fechaOperacion}</td>
+               <td align = "left ">${mov.desOperacion}</td>
+               <td align = "center ">${mov.numeroCuenta}</td>
+               <td align = "center ">${mov.denominacion}</td>
+               <td align = "right " >${mov.debito}</td>
+               <td align = "right ">${mov.credito}</td>
+            </tr>
+         </#list>
+          <tr>
+               <td align = "center " style= "border-top:1px solid black"></td>
+               <td align = "center " style= "border-top:1px solid black"></td>
+               <td align = "center " style= "border-top:1px solid black"></td>
+               <td align = "center " style= "border-top:1px solid black"></td>
+               <td align = "right " style= "font-weight:bold; border-top:1px solid black">TOTALES</td>
+               <td align = "right " style= "font-weight:bold; border-top:1px solid black">${total.totalDebito}</td>
+               <td align = "right " style= "font-weight:bold; border-top:1px solid black">${total.totalCredito}</td>
+            </tr>
+      </table>  
+  </body>
+</pdf>

@@ -1,0 +1,23 @@
+<restlet scriptid="customscript_wn_rs_tipodecambio">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>WN_RS_TipoDeCambio</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Pruebas/WN_RS_TipoDeCambio.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_wn_rs_tipodecambio">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <audsubsidiary>1|8|7|11|10|5|4|12|6|9|2|3</audsubsidiary>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>TESTING</status>
+      <title>WN_RS_TipoDeCambio</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>
