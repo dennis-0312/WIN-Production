@@ -1,5 +1,5 @@
 function customizeGlImpact(transactionRecord, standardLines, customLines, book) {
-    nlapiLogExecution("DEBUG", "Inicio", 'INICIO-----------------------------');
+    nlapiLogExecution("ERROR", "Inicio", 'INICIO-----------------------------');
     const ITEMRECEIPT = 'itemreceipt';
     const ITEMFULFILLMENT = 'itemfulfillment';
     const recType = transactionRecord.getRecordType();
@@ -12,7 +12,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
     var account_to_debit = 0;
 
 
-    nlapiLogExecution('DEBUG', 'recType', recType);
+    nlapiLogExecution('ERROR', 'recType', recType);
 
     if (recType === ITEMRECEIPT || recType === ITEMFULFILLMENT) {
         nlapiLogExecution('DEBUG', 'MSK', 'Sí aplica');
@@ -63,7 +63,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                             var searchresult2 = search2[j];
                             cuenta_60 = searchresult2.getValue('custitem_pe_purchase_account');
                             cuenta_61 = searchresult2.getValue('custitem_pe_variation_account');
-                            ItemidName = searchresult2.getValue('itemid'); 
+                            ItemidName = searchresult2.getValue('itemid');
                         }
 
                         if (cuenta_60 && cuenta_60 != "" && cuenta_61 && cuenta_61 != "") {
@@ -96,7 +96,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                                     newLine2.setClassId(val_class);
                                     newLine2.setDepartmentId(val_department);
                                 }
-                                var arr = [ItemidName,cuenta_60,cuenta_61,val_class,val_department];
+                                var arr = [ItemidName, cuenta_60, cuenta_61, val_class, val_department];
                                 paraCuentas20.push(arr);
                             }
                             if (recType === ITEMFULFILLMENT) {
@@ -147,7 +147,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                 if (recType == ITEMRECEIPT) {
 
                     var idTransaccion = transactionRecord.getFieldValue('id');
-    
+
                     var flete = transactionRecord.getFieldValue('landedcostamount1');
                     var handling = transactionRecord.getFieldValue('landedcostamount2');
                     var transporteLocal = transactionRecord.getFieldValue('landedcostamount3');
@@ -160,7 +160,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                     var servicioCarga = transactionRecord.getFieldValue('landedcostamount10');
                     var otros = transactionRecord.getFieldValue('landedcostamount11');
                     var seguro = transactionRecord.getFieldValue('landedcostamount12');
-    
+
                     nlapiLogExecution('DEBUG', 'MSK', 'idTransaccion=' + idTransaccion);
 
                     var itemreceiptSearch = nlapiSearchRecord("itemreceipt", null,
@@ -186,12 +186,12 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                             new nlobjSearchColumn("location")
                         ]
                     );
-    
+
                     for (var j = 0; itemreceiptSearch != null && j < itemreceiptSearch.length; j++) {
                         var searchresult2 = itemreceiptSearch[j];
                         var newMonto = searchresult2.getValue('debitamount');
                         var val_memo = searchresult2.getValue('memo');
-    
+
                         if (newMonto < 0) {
                             newMonto = newMonto * (-1);
                         }
@@ -200,8 +200,8 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                         nlapiLogExecution('DEBUG', 'MSK', 'val_memo=' + val_memo);
                         nlapiLogExecution('DEBUG', 'MSK', 'paraCuentas20=' + paraCuentas20);
 
-                        for(var x = 0; x < paraCuentas20.length; x++){
-                            if(val_memo.indexOf(paraCuentas20[x][0]) != -1){
+                        for (var x = 0; x < paraCuentas20.length; x++) {
+                            if (val_memo.indexOf(paraCuentas20[x][0]) != -1) {
 
                                 var newLine = customLines.addNewLine();
                                 newLine.setCreditAmount(newMonto);
@@ -209,24 +209,24 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                                 //newLine.setMemo(name_item);
                                 newLine.setClassId(Number(paraCuentas20[x][3]));
                                 newLine.setDepartmentId(Number(paraCuentas20[x][4]));
-            
+
                                 var newLine2 = customLines.addNewLine();
                                 newLine2.setDebitAmount(newMonto);
                                 newLine2.setAccountId(Number(paraCuentas20[x][1]));
                                 //newLine2.setMemo(name_item);
                                 newLine2.setClassId(Number(paraCuentas20[x][3]));
                                 newLine2.setDepartmentId(Number(paraCuentas20[x][4]));
-                                
+
                             }
                         }
-    
+
                     }
                 }
 
             }
 
             if (recType == ITEMFULFILLMENT) {
-                
+
                 var count_transaction = transactionRecord.getLineItemCount('item');
 
                 var idTransaccion = transactionRecord.getFieldValue('id');
@@ -240,12 +240,12 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                 nlapiLogExecution('ERROR', 'MSK', 'idTransaccion=' + idTransaccion);
                 nlapiLogExecution('ERROR', 'MSK', 'formulario=' + formulario);
 
-                if (ordertype == "SalesOrd" && formulario == '149' && estado == 'C') {
+                if (ordertype == "SalesOrd" && formulario == '125' && estado == 'C') {
                     nlapiLogExecution('ERROR', 'MSK', 'count_transaction=' + count_transaction);
 
-                    for (var i = 1; i <= count_transaction; i++){
+                    for (var i = 1; i <= count_transaction; i++) {
                         var id_item = transactionRecord.getLineItemValue('item', 'item', i);
-                        
+
                         var val_department = Number(transactionRecord.getLineItemValue('item', 'department', i));
                         var val_class = Number(transactionRecord.getLineItemValue('item', 'class', i));
                         var val_location = Number(transactionRecord.getLineItemValue('item', 'location', i));
@@ -257,7 +257,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                         if (type_item == 'InvtPart') {
                             var cuenta_costo = "";
                             var costo_unitario = "";
-                            
+
                             nlapiLogExecution('ERROR', 'MSK', 'id_item=' + id_item);
                             nlapiLogExecution('ERROR', 'MSK', 'Number(id_item)=' + Number(id_item));
                             var search2 = nlapiSearchRecord('inventoryitem', null, [
@@ -270,7 +270,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                             ]);
 
                             for (var j = 0; search2 != null && j < search2.length; j++) {
-                                
+
                                 var searchresult2 = search2[j];
                                 cuenta_costo = searchresult2.getValue('expenseaccount');
                                 costo_unitario = searchresult2.getValue('locationaveragecost');
@@ -283,7 +283,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                             nlapiLogExecution('ERROR', 'MSK', 'quantity=' + quantity);
                             var monto = 0
                             nlapiLogExecution('ERROR', 'MSK', 'Number(quantity)=' + Number(quantity));
-                            if(Number(quantity) == 0){
+                            if (Number(quantity) == 0) {
                                 monto = 0
                             } else {
                                 monto = quantity * costo_unitario * tipo_cambio
@@ -298,7 +298,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                                 monto = monto * (-1);
                             }
 
-                            if(monto != 0){
+                            if (monto != 0) {
                                 var newLine = customLines.addNewLine();
                                 newLine.setCreditAmount(monto);
                                 newLine.setAccountId(Number(cuenta_costo));
@@ -306,7 +306,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                                 newLine.setClassId(Number(val_class));
                                 newLine.setDepartmentId(Number(val_department));
                                 newLine.setLocationId(Number(val_location));
-        
+
                                 var newLine2 = customLines.addNewLine();
                                 newLine2.setDebitAmount(monto);
                                 newLine2.setAccountId(Number(cuentaAjuste));
@@ -315,7 +315,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                                 newLine2.setDepartmentId(Number(val_department));
                                 newLine2.setLocationId(Number(val_location));
                             }
-                            
+
                         }
 
                     }
@@ -379,7 +379,7 @@ function customizeGlImpact(transactionRecord, standardLines, customLines, book) 
                     */
                 }
             }
-            
+
 
         } catch (e) {
             nlapiLogExecution('ERROR', recType, e);

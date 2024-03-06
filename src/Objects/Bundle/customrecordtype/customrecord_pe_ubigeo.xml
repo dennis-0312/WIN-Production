@@ -87,6 +87,19 @@
       <isinactive>F</isinactive>
       <name>La Libertad: Trujillo: Trujillo</name>
     </instance>
+
+
+
+
+
+
+
+    
+    <!-- <instance scriptid="val_18631_7460686_345">
+      <custrecord_pe_codigo>130101</custrecord_pe_codigo>
+      <isinactive>F</isinactive>
+      <name>La Libertad: Trujillo: Trujillo</name>
+    </instance>
     <instance scriptid="val_18642_7460686_200">
       <custrecord_pe_codigo>140106</custrecord_pe_codigo>
       <isinactive>F</isinactive>
@@ -146,6 +159,6 @@
       <custrecord_pe_codigo>200101</custrecord_pe_codigo>
       <isinactive>F</isinactive>
       <name>Piura: Piura: Piura</name>
-    </instance>
+    </instance> -->
   </instances>
 </customrecordtype>
