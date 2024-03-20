@@ -46,7 +46,6 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
         const URL_TOKEN = 'https://ose.efact.pe/api-efact-ose/oauth/token';
         const URL_DOCUMENT = 'https://ose.efact.pe/api-efact-ose/v1/document';
 
-
         function send(pluginContext) {
             internalId = pluginContext.transaction.id;
             userId = pluginContext.sender.id;
@@ -60,7 +59,6 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
             logStatus(internalId, 'Debug4 ' + JSON.stringify(transaction));
             logStatus(internalId, 'Debug5 ' + tranType);
 
-
             result = {
                 success: true,
                 message: JSON.stringify(transaction)
@@ -68,18 +66,14 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
 
             try {
                 var getcredentials = openCredentials(array);
-
-
                 var request = getIdentifyDocument(internalId);
-
-
                 var headers1 = [];
                 headers1['Accept'] = '*/*';
                 headers1['Content-Type'] = 'application/json';
                 headers1['Authorization'] = 'Basic Y2xpZW50OnNlY3JldA==';
 
                 var respAsset = https.post({
-                    url: URL_TOKEN + "?username=" + getcredentials.username + "&password=" + getcredentials.password + "&grant_type=password",
+                    url: "https://ose.efact.pe/api-efact-ose/oauth/token?username=" + getcredentials.username + "&password=" + getcredentials.password + "&grant_type=password",
                     headers: headers1
                 });
                 var reponse = JSON.parse(respAsset.body);
@@ -96,8 +90,6 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
                     var getxml = getDocumentXML(send.description, reponse.access_token);
                     var getcdr = getDocumentCDR(send.description, reponse.access_token);
 
-
-
                     sleep(3000);
                     var filepdf = generateFilePDF(request.filename, getpdf.pdf);
                     var filexml = generateFileXML(request.filename, getxml.pdf);
@@ -111,7 +103,6 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
                         };
                         return result;
                     }
-
 
                     filepdf = file.load({ id: filepdf });
                     filexml = file.load({ id: filexml });
@@ -258,12 +249,10 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
             }
         }
 
-
         function getDocumentXML(documento, token) {
             var headers1 = new Array();
             try {
                 headers1['Accept'] = '*/*';
-
                 headers1['Authorization'] = 'Bearer ' + token;
                 var response = https.get({
                     url: 'https://ose.efact.pe/api-efact-ose/v1/xml/' + documento,
@@ -276,7 +265,6 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
                 logStatus(internalId, 'Debug3 ' + JSON.stringify(response));
 
                 return {
-
                     pdf: response.body
                 }
             } catch (error) {
@@ -284,12 +272,11 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
                 //logError(array[0], array[1], 'Error-getDocumentPDF', JSON.stringify(e));
             }
         }
+
         function getDocumentCDR(documento, token) {
             var headers1 = new Array();
             try {
-
                 headers1['Accept'] = '*/*';
-
                 headers1['Authorization'] = 'Bearer ' + token;
                 var response = https.get({
                     url: 'https://ose.efact.pe/api-efact-ose/v1/cdr/' + documento,
@@ -311,13 +298,11 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
             }
         }
 
-
         function sendDocument(filename, request, access_token) {
             var headers1 = new Array();
             try {
                 var files = [
                     { name: filename, value: file.load({ id: request }) } // file cabinet ids; you can use dynamic files
-
                 ];
 
                 var headers = [];
@@ -328,9 +313,7 @@ define(['N/email', 'N/encode', 'N/format', 'N/https', 'N/record', 'N/search', 'N
                 var resp = multiPartUpload_1.uploadParts('https://ose.efact.pe/api-efact-ose/v1/document', headers, files);
                 resp = JSON.parse(resp.body);
                 return resp;
-
             } catch (error) {
-
                 return error;
                 //logError(array[0], array[1], 'Error-sendDocument', JSON.stringify(e));
             }

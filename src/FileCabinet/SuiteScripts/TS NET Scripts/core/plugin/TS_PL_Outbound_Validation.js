@@ -27,7 +27,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
     */
 
     function (config, email, encode, file, format, https, record, runtime, search, log) {
-        var FOLDER_PDF = 377;          //SB: 513   PR: ? - ok
+        var FOLDER_PDF = 604;          //SB: 513   PR: 604 - ok
         var internalId = '';
         var userId = '';
         var FORMA_PAGO_CREDITO = 2;
@@ -111,16 +111,16 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                         search.createColumn({ name: "custbody_pe_numero_de_registro_mtc" }),
                         search.createColumn({ name: "custbody_pe_num_autorizacion_principal" }),
                         search.createColumn({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_llegada", label: "llegada" }),
-                        search.createColumn({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_llegada", label: "llegada" }),
+                        search.createColumn({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_partida", label: "llegada" }),
                         search.createColumn({ name: "custbody_pe_delivery_address" }),
                         search.createColumn({ name: "custbody_pe_source_address" }),
                         search.createColumn({ name: "custbody_pe_document_number_ref" }),
                         search.createColumn({ name: "custbody_pe_document_series_ref" }),
                         search.createColumn({ name: "custrecord_pe_code_document_type", join: "custbody_pe_document_type_ref", label: "codigo" }),//3
                         search.createColumn({ name: "name", join: "custbody_pe_document_type_ref", label: "name" }),
-                        search.createColumn({ name: "transferlocation"}),
-                        search.createColumn({ name: "custrecord_pe_cod_establishment_annex", join: "custbody_pe_location_source"}),
-                        search.createColumn({ name: "type", join: "createdFrom"}),
+                        search.createColumn({ name: "transferlocation" }),
+                        search.createColumn({ name: "custrecord_pe_cod_establishment_annex", join: "custbody_pe_location_source" }),
+                        search.createColumn({ name: "type", join: "createdFrom" }),
                     ]
             });
             var searchResultitemfulfillment = itemfulfillmentSearchObj.run().getRange({ start: 0, end: 200 });
@@ -135,9 +135,9 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
             partida = partida.split(':');
             llegada = llegada.split(':');
 
-            var codigoDestino = searchResultitemfulfillment[0].getValue({ name: "transferlocation"});
+            var codigoDestino = searchResultitemfulfillment[0].getValue({ name: "transferlocation" });
             codigoDestino = getCodigoUbicacion(codigoDestino);
-            var codigoLlegada = searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_cod_establishment_annex", join: "custbody_pe_location_source"});
+            var codigoLlegada = searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_cod_establishment_annex", join: "custbody_pe_location_source" });
 
             var observacion = searchResultitemfulfillment[0].getValue({ name: "memo", label: "Memo" });
             fechaEmision = fechaEmision.split('/');
@@ -208,8 +208,8 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                         ]
 
                 });
-            } else if(motivo == '13'){
-                if(creadoDesde == 'SalesOrd'){
+            } else if (motivo == '13') {
+                if (creadoDesde == 'SalesOrd') {
                     searchLoad = search.create({
                         type: "salesorder",
                         filters:
@@ -243,7 +243,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                 search.createColumn({ name: "internalid" }),
                                 search.createColumn({ name: "internalid", join: "subsidiary" }),
                             ]
-    
+
                     });
                 } else {
                     searchLoad = search.create({
@@ -280,10 +280,10 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                 search.createColumn({ name: "internalid", join: "subsidiary" }),
                                 search.createColumn({ name: "internalid", join: "custbody_pe_entidad_prestamo" }),
                             ]
-    
+
                     });
                 }
-                
+
             } else {
                 searchLoad = search.create({
                     type: "salesorder",
@@ -341,7 +341,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                 addr2 = datos_subsi.distrito;
             }
 
-            if(motivo == '13' && creadoDesde == 'TrnfrOrd'){
+            if (motivo == '13' && creadoDesde == 'TrnfrOrd') {
                 var column21 = searchResult[0].getValue({ name: "vatregnumber", join: "custbody_pe_entidad_prestamo" });
                 var column20 = '6';
                 var column22 = searchResult[0].getValue({ name: "companyname", join: "custbody_pe_entidad_prestamo" });
@@ -361,9 +361,9 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                 var column27 = searchResult[0].getValue({ name: "address2", join: "customer" });
             }
 
-            if (motivo != '04' && motivo != '02'){
+            if (motivo != '04' && motivo != '02') {
                 var CustomerId = '';
-                if(motivo == '13' && creadoDesde == 'TrnfrOrd'){
+                if (motivo == '13' && creadoDesde == 'TrnfrOrd') {
                     CustomerId = searchResult[0].getValue({ name: "internalid", join: "custbody_pe_entidad_prestamo" });
                 } else {
                     CustomerId = searchResult[0].getValue({ name: "entity" });
@@ -376,7 +376,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                         ],
                     columns:
                         [
-                            
+
                             search.createColumn({ name: "custrecord_pe_departamento", join: "Address" }),//0
                             search.createColumn({ name: "custrecord_pe_distrito", join: "Address" }),//0
                         ]
@@ -403,7 +403,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                     column22 = searchResult[0].getValue({ name: "firstname", join: "customer" }) + ' ' + searchResult[0].getValue({ name: "lastname", join: "customer" });
                 }
                 var CustomerInternal = ''
-                if(motivo == '13' && creadoDesde == 'TrnfrOrd'){
+                if (motivo == '13' && creadoDesde == 'TrnfrOrd') {
                     CustomerInternal = searchResult[0].getValue({ name: "internalid", join: "custbody_pe_entidad_prestamo" });
                 } else {
                     CustomerInternal = searchResult[0].getValue({ name: "entity" });
@@ -761,7 +761,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
             }
             var Shipment;
             if (modalidad == '02') {
-                if(motivo == '04'){
+                if (motivo == '04') {
                     Shipment = {
                         "Shipment": [
                             {
@@ -786,7 +786,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                         "unitCode": "TNE"
                                     }
                                 ],
-    
+
                                 "ShipmentStage": [
                                     {
                                         "TransportModeCode": [
@@ -837,7 +837,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                 ]
                                             }
                                         ]
-    
+
                                     }
                                 ],
                                 "Delivery": [
@@ -852,7 +852,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                 "AddressTypeCode": [
                                                     {
                                                         "_": codigoDestino,
-                                                        "listID" : column21
+                                                        "listID": column21
                                                     }
                                                 ],
                                                 "CitySubdivisionName": [
@@ -901,13 +901,13 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                     {
                                                         "ID": [
                                                             {
-                                                                "_": searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_llegada", label: "llegada" })
+                                                                "_": searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_partida", label: "llegada" })
                                                             }
                                                         ],
                                                         "AddressTypeCode": [
                                                             {
                                                                 "_": codigoLlegada,
-                                                                "listID" : column21
+                                                                "listID": column21
                                                             }
                                                         ],
                                                         "CitySubdivisionName": [
@@ -950,7 +950,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                         ]
                                                     }
                                                 ]
-    
+
                                             }
                                         ]
                                     }
@@ -968,7 +968,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                         ]
                                     }
                                 ]
-    
+
                             }
                         ]
                     }
@@ -997,7 +997,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                         "unitCode": "TNE"
                                     }
                                 ],
-    
+
                                 "ShipmentStage": [
                                     {
                                         "TransportModeCode": [
@@ -1048,7 +1048,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                 ]
                                             }
                                         ]
-    
+
                                     }
                                 ],
                                 "Delivery": [
@@ -1106,7 +1106,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                     {
                                                         "ID": [
                                                             {
-                                                                "_": searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_llegada", label: "llegada" })
+                                                                "_": searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_partida", label: "llegada" })
                                                             }
                                                         ],
                                                         "CitySubdivisionName": [
@@ -1149,7 +1149,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                         ]
                                                     }
                                                 ]
-    
+
                                             }
                                         ]
                                     }
@@ -1167,14 +1167,14 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                         ]
                                     }
                                 ]
-    
+
                             }
                         ]
                     }
                 }
 
             } else {
-                if(motivo == '04'){
+                if (motivo == '04') {
 
                     Shipment = {
                         "Shipment": [
@@ -1200,7 +1200,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                         "unitCode": "TNE"
                                     }
                                 ],
-    
+
                                 "ShipmentStage": [
                                     {
                                         "TransportModeCode": [
@@ -1273,7 +1273,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                 "AddressTypeCode": [
                                                     {
                                                         "_": codigoDestino,
-                                                        "listID" : column21
+                                                        "listID": column21
                                                     }
                                                 ],
                                                 "CitySubdivisionName": [
@@ -1322,13 +1322,13 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                     {
                                                         "ID": [
                                                             {
-                                                                "_": searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_llegada", label: "llegada" })
+                                                                "_": searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_partida", label: "llegada" })
                                                             }
                                                         ],
                                                         "AddressTypeCode": [
                                                             {
                                                                 "_": codigoLlegada,
-                                                                "listID" : column21
+                                                                "listID": column21
                                                             }
                                                         ],
                                                         "CitySubdivisionName": [
@@ -1393,7 +1393,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                         ]
                                     }
                                 ]
-    
+
                             }
                         ]
                     }
@@ -1423,7 +1423,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                         "unitCode": "TNE"
                                     }
                                 ],
-    
+
                                 "ShipmentStage": [
                                     {
                                         "TransportModeCode": [
@@ -1539,7 +1539,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                                     {
                                                         "ID": [
                                                             {
-                                                                "_": searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_llegada", label: "llegada" })
+                                                                "_": searchResultitemfulfillment[0].getValue({ name: "custrecord_pe_codigo", join: "custbody_pe_ubigeo_punto_partida", label: "llegada" })
                                                             }
                                                         ],
                                                         "CitySubdivisionName": [
@@ -1604,7 +1604,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                                         ]
                                     }
                                 ]
-    
+
                             }
                         ]
                     }
@@ -2378,10 +2378,10 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                         search.createColumn({ name: "debitfxamount" }),
                         search.createColumn({ name: "memo" }),
                         search.createColumn({ name: "otherrefnum" }),
-                        search.createColumn({ name: "internalid", join: "subsidiary"}),
-                        search.createColumn({ name: "type", join: "createdFrom"}),
-                        search.createColumn({ name: "internalid", join: "createdFrom"}),
-                        search.createColumn({ name: "tranid", join: "createdFrom"}),
+                        search.createColumn({ name: "internalid", join: "subsidiary" }),
+                        search.createColumn({ name: "type", join: "createdFrom" }),
+                        search.createColumn({ name: "internalid", join: "createdFrom" }),
+                        search.createColumn({ name: "tranid", join: "createdFrom" }),
 
                     ]
 
@@ -2392,7 +2392,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
             var idCreadoDesde = searchResult[0].getValue({ name: "internalid", join: "createdFrom" });
             var numOV = searchResult[0].getValue({ name: "tranid", join: "createdFrom" });
             var numEjecucion = '';
-            if(tipoCreadoDesde == 'SalesOrd' && idCreadoDesde){
+            if (tipoCreadoDesde == 'SalesOrd' && idCreadoDesde) {
                 var facturaVenta = record.load({
                     type: record.Type.SALES_ORDER, // Tipo de registro Vendor Credit 
                     id: idCreadoDesde, // Reemplaza con el ID de tu registro Vendor Credit
@@ -2402,17 +2402,17 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
 
                 var fechaAnte = 0;
 
-                for (var i = 0; i < linksCount; i++){
+                for (var i = 0; i < linksCount; i++) {
                     var fech_Links = facturaVenta.getSublistValue({ sublistId: 'links', fieldId: 'trandate', line: i });
                     var tipo_Links = facturaVenta.getSublistValue({ sublistId: 'links', fieldId: 'type', line: i });
                     var num_Links = facturaVenta.getSublistValue({ sublistId: 'links', fieldId: 'tranid', line: i });
 
-                    if(tipo_Links == 'Ejecución de orden de artículo'){
-                        if(fechaAnte == 0 ){
+                    if (tipo_Links == 'Ejecución de orden de artículo') {
+                        if (fechaAnte == 0) {
                             numEjecucion = num_Links;
                             fechaAnte = fech_Links;
                         } else {
-                            if(fech_Links > fechaAnte){
+                            if (fech_Links > fechaAnte) {
                                 numEjecucion = num_Links;
                                 fechaAnte = fech_Links;
                             }
@@ -2451,9 +2451,9 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
             var codeDetraccion = searchResult[0].getValue({ name: "custrecord_pe_code_detraccion", join: "custbody_pe_concept_detraction" });
 
             // IDE---------------------------------------------------------------------------------------------------------------------
-            
+
             var id_subsi = searchResult[0].getValue({ name: "internalid", join: "subsidiary" });
-            
+
 
             var numeracion = searchResult[0].getValue(searchLoad.columns[0]);
             var zip = searchResult[0].getValue({ name: "zip", join: "subsidiary", label: "zip" });
@@ -2858,12 +2858,12 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
             var duedate = generateduedate(column32);
             var InvoiceTypeCode = generateInvoiceTypeCode(codTipoDocumento, tipodedoc);
 
-            if (column05 == 'PEN'){
+            if (column05 == 'PEN') {
                 var monto_Detracion = (montoDetr * tipoCambio).toFixed(2).toString();
             } else {
                 var monto_Detracion = Math.round((montoDetr * tipoCambio).toFixed(2)).toString();
             }
-            
+
             var note = {
                 "Note": [
                     {
@@ -3612,8 +3612,8 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                     }
                 ]
             }
-            
-            if(otherrefnum != null && otherrefnum != ''){
+
+            if (otherrefnum != null && otherrefnum != '') {
                 var DocumentCurrencyCode = {
                     "DocumentCurrencyCode": [
                         {
@@ -3639,7 +3639,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                     ],
                 }
             } else {
-                if(numOV != null && numOV != ''){
+                if (numOV != null && numOV != '') {
                     var DocumentCurrencyCode = {
                         "DocumentCurrencyCode": [
                             {
@@ -3683,7 +3683,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                 }
             }
 
-            if(tipoCreadoDesde == 'SalesOrd' && idCreadoDesde != null && idCreadoDesde != ''){
+            if (tipoCreadoDesde == 'SalesOrd' && idCreadoDesde != null && idCreadoDesde != '') {
                 var DespatchDocumentReference = {
                     "DespatchDocumentReference": [
                         {
@@ -3711,7 +3711,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                 primeraParte = fusionarObjetos(primeraParte, InvoiceTypeCode);
                 primeraParte = fusionarObjetos(primeraParte, note);
                 primeraParte = fusionarObjetos(primeraParte, DocumentCurrencyCode);
-                if(tipoCreadoDesde == 'SalesOrd' && idCreadoDesde != null && idCreadoDesde != ''){
+                if (tipoCreadoDesde == 'SalesOrd' && idCreadoDesde != null && idCreadoDesde != '') {
                     primeraParte = fusionarObjetos(primeraParte, DespatchDocumentReference);
                 }
 
@@ -5922,7 +5922,7 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                     cod_ubi: cod_ubi,
                 }
             } catch (error) {
-                log.error('error',error);
+                log.error('error', error);
             }
         }
 
@@ -5931,19 +5931,19 @@ define(['N/config', 'N/email', 'N/encode', 'N/file', 'N/format', 'N/https', 'N/r
                 var locationSearchObj = search.create({
                     type: "location",
                     filters:
-                    [
-                       ["internalid","anyof",id]
-                    ],
+                        [
+                            ["internalid", "anyof", id]
+                        ],
                     columns:
-                    [
-                       search.createColumn({name: "custrecord_pe_cod_establishment_annex", label: "PE Cod Anexo del establecimiento"})
-                    ]
-                 });
+                        [
+                            search.createColumn({ name: "custrecord_pe_cod_establishment_annex", label: "PE Cod Anexo del establecimiento" })
+                        ]
+                });
                 var searchResult = locationSearchObj.run().getRange({ start: 0, end: 1 });
                 var codigo = searchResult[0].getValue(locationSearchObj.columns[0]);
                 return codigo
             } catch (error) {
-                log.error('error',error);
+                log.error('error', error);
             }
         }
 
